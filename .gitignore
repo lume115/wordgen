@@ -1,0 +1,14 @@
+bin/
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.classpath
+.settings
+**/.settings/
+.idea/
+.project

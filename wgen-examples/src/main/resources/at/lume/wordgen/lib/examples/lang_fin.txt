@@ -1,0 +1,23 @@
+-[h,j,k,l,m,n,p,r,s,t,v] +v
+-[e,i,a,o,u,au,ai,ei] +c +flag(Va)
+-[e,i,y,ä,ö,ei] +c +flag(Vä)
+[e,i,a,o,u] +c +flag(Va) #Va
+[e,i,ä,ö,y] +c +flag(Vä) #Vä
+[aa,ee,ii,uu] +c +flag(Va) #Va
+[ää,ee,ii,yy] +c +flag(Vä) #Vä
+[au,ai,uo,ie,ei,eu] +c +flag(Va) #Va
+[äy,äi,yö,ie,ei] +c +flag(Vä) #Vä
+[h,k,l,m,n,p,r,s,t,v] +v +flag(Va) #Va
+[h,k,l,m,n,p,r,s,t,v] +v +flag(Vä) #Vä
++[a,o,e,u,i,aa] #Va
++[ä,ö,e,y,i,ää] #Vä
++[a,o,u,e][s] #Va
++[ä,ö,y,e][s] #Vä
++[nk,mp,lt,nt,rt][i,e,a,o,u] #Va
++[nk,mp,lt,nt,rt][i,e,ä,ö,y] #Vä
++[kk,pp,tt][a,o,u,i,e] #Va
++[kk,pp,tt][ä,ö,y,i,e] #Vä
++[hke,lke,rke][a] #Va
++[hke,lke,rke][ä] #Vä
++[uku] #Va
++[yky] #Vä

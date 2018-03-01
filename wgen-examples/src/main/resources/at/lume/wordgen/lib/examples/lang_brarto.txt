@@ -1,0 +1,8 @@
+-[brarto] +v +maxlen(6)
+-[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z] +v
+-[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z][r,l] +v
+[a,e,i,o,u] +c
+[b,p,r,l][b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z] +v
+[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z] +v
++[o]
++[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z][o]

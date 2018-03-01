@@ -1,0 +1,8 @@
+-[aa,aa,aa] +c
+-[aa,aa,aa] +c
+[b][a][b] +v
+[b][a][b] +v
+[e][e,e,e] +c -c
+[ee,ee,ee] +c -c
++[x][x,x,x] -v
++[e][x,x,x] -c

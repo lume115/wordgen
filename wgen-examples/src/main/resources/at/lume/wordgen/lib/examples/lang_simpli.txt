@@ -1,0 +1,11 @@
+-[a,e,i,o,u] +c
+-[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z][a,e,i,o,u] +c
+[a,e,i,o,u] +c
+[i][a,e,o,u] +c
+[e][a,e,i,o,u] +c
+[aa,ee,ii,oo,uu] +c
+[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z] +v
+[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z][a,e,i,o,u] +c
++[a,e,i,o,u]
++[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z]
++[b,c,d,f,g,h,j,k,l,m,n,p,q,r,s,t,v,w,x,y,z][a,e,i,o,u]

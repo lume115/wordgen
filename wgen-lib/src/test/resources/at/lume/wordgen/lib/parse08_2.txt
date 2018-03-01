@@ -1,0 +1,13 @@
+-[a] #x
+[b] -flag(y)
+[c] -flag(y)
+[d] -flag(y)
+[e] -flag(y)
+[f] -flag(y)
+[g] -flag(y)
+[h] -flag(y)
+[i] -flag(y)
+[j] -flag(y)
+[k] -flag(y)
+[x] -flag(x) #x
++[c]
