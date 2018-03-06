@@ -1,0 +1,627 @@
+-[a] +accept(be,ch,kt,ll,ls,lt,me,mt,nd,nf,ng,ns,nt,pr,rb,rt,uc,uf,ug,us,ut,uß)
+-[ab] +accept(ed,eg,eh,ei,ek,er,es,et,ev,ez)
+-[ac] +accept(ha,he,hi)
+-[am] +accept(ed,eh,ei,en,et)
+-[ap] +accept(re,ro,rä)
+-[b] +accept(ac,al,an,au,ay,ed,eg,eh,ei,ek,er,es,et,ev,ez,ie,il,in,is,le,li,od,on,ra,re,ri,uc,uk,un,ör,üh,ür)
+-[ba] +accept(ch,ll,ls,lt,nd,nf,ng,ns,nt,uc,uf,ug,us,ut,uß)
+-[be] +accept(he,ig,in,rf,rg,rh,rk,rn,rr,rs,rw,rz,tw)
+-[bi] +accept(nd,nf,nn,ns,nt,nz,st)
+-[bl] +accept(eb,ed,ei,et,eu,ie)
+-[bo] +accept(de)
+-[br] +accept(ah,au,ec,ed,eg,ei,ic)
+-[bu] +accept(nd,ni,ns,nt)
+-[c] +accept(ha,he,hi,äs)
+-[ch] +accept(ab,al,am,an,at,au,ei,el,er,eu,ie,il,in)
+-[d] +accept(ab,ad,af,ag,ah,am,an,ar,as,at,av,az,aß,em,en,er,es,eu,ez,ie,ir,is,oc,ol,on,or,re,ri,ru,ur,ür)
+-[da] +accept(be,me,mt,nd,nf,ng,ns,nt,rb,rt)
+-[de] +accept(mi,nd,nt,rf,rg,rh,rk,rn,rr,rs,rw,rz,ur)
+-[di] +accept(st)
+-[do] +accept(rt)
+-[dr] +accept(ec,ed,eg,ei,ic,un,us,uß)
+-[du] +accept(rt)
+-[e] +accept(be,he,ig,in,lt,mi,nd,nt,rf,rg,rh,rk,rn,rr,rs,rw,rz,tw,ur,xp)
+-[eb] +accept(ed,eg,eh,ei,ek,er,es,et,ev,ez)
+-[eh] +accept(ei,el,er,eu)
+-[ei] +accept(nd,nf,nn,ns,nt,nz)
+-[em] +accept(ic,il,in,ir,it)
+-[eu] +accept(rt)
+-[f] +accept(al,am,an,as,eb,el,es,il,in,ir,ol,or,ra,re,rü,un,äl,üh,ün,ür)
+-[fa] +accept(ll,ls,lt,me,mt,nd,nf,ng,ns,nt)
+-[fe] +accept(be,lt)
+-[fi] +accept(nd,nf,nn,ns,nt,nz)
+-[fo] +accept(rt)
+-[fr] +accept(ah,au,ec,ed,eg,ei)
+-[fu] +accept(nd,ni,ns,nt)
+-[g] +accept(ab,an,ar,eb,ef,eg,eh,ek,el,em,en,ep,er,es,et,ew,ib,il,in,le,ro,ru,rö,rü,us,ut)
+-[ga] +accept(be,nd,nf,ng,ns,nt,rb,rt)
+-[ge] +accept(be,he,lt,mi,nd,nt,rf,rg,rh,rk,rn,rr,rs,rw,rz,tw)
+-[gi] +accept(nd,nf,nn,ns,nt,nz)
+-[gl] +accept(eb,ed,ei,et,eu)
+-[gr] +accept(ol,om,un,us,uß)
+-[h] +accept(ab,al,am,an,at,au,ei,el,er,eu,ie,il,in,oc,oh,ot,ul,äl,ät,äu,öh)
+-[ha] +accept(be,ll,ls,lt,me,mt,nd,nf,ng,ns,nt,uc,uf,ug,us,ut,uß)
+-[he] +accept(ig,in,lt,rf,rg,rh,rk,rn,rr,rs,rw,rz,ur)
+-[hi] +accept(nd,nf,nn,ns,nt,nz)
+-[ho] +accept(hn)
+-[i] +accept(ch,da,de,hm,hn,hr,mm,nd,nf,nn,ns,nt,nz,st,ta)
+-[ic] +accept(ha,he,hi)
+-[id] +accept(ab,ad,af,ag,ah,am,an,ar,as,at,av,az,aß,em,en,er,es,eu,ez)
+-[is] +accept(ta,te,ti,tr,tu,tä,tü)
+-[it] +accept(ag,at)
+-[j] +accept(ah,an,ap,ed,et,ew,os,ul,un,äh)
+-[ja] +accept(nd,nf,ng,ns,nt,pr)
+-[je] +accept(tw)
+-[jo] +accept(st)
+-[ju] +accept(nd,ni,ns,nt)
+-[jä] +accept(hn)
+-[k] +accept(am,an,au,ei,il,in,ir,la,le,na,oa,ol,om,on,op,os,re,ri,ul,un,ur,öl,ön,ün)
+-[ka] +accept(me,mt,nd,nf,ng,ns,nt,uc,uf,ug,us,ut,uß)
+-[ke] +accept(ig,in)
+-[ki] +accept(nd,nf,nn,ns,nt,nz)
+-[kl] +accept(ag,an,as,au,eb,ed,ei,et,eu)
+-[kn] +accept(ac,ah,am,an,at)
+-[ko] +accept(pf,st)
+-[kr] +accept(ec,ed,eg,ei,ic)
+-[ku] +accept(nd,ni,ns,nt,rt)
+-[l] +accept(ag,an,as,au,eb,ed,ei,et,eu,ie,on,ud,uf,än,äs,äu,äß,ös)
+-[la] +accept(nd,nf,ng,ns,nt,uc,uf,ug,us,ut,uß)
+-[le] +accept(be,ig,in,tw,ur)
+-[lä] +accept(nd)
+-[lö] +accept(st)
+-[m] +accept(ac,ag,ai,al,an,ar,ed,eh,ei,en,et,ic,il,in,ir,it,on,or,os,us,ut,uß,äd,än,är,öc,ög,ün,üs,üß)
+-[ma] +accept(ch,ll,ls,lt,nd,nf,ng,ns,nt,rb,rt)
+-[me] +accept(he,ig,in,nd,nt,tw)
+-[mi] +accept(ch,nd,nf,nn,ns,nt,nz,ta)
+-[mo] +accept(rt,st)
+-[mä] +accept(nd,rg)
+-[n] +accept(ac,ah,am,an,at,eb,eh,en,eu,ic,ie,im,oc,ov,un,ur,äc,äh,äm)
+-[na] +accept(ch,me,mt,nd,nf,ng,ns,nt)
+-[ne] +accept(be,he,nd,nt,ur)
+-[ni] +accept(ch,mm)
+-[nu] +accept(nd,ni,ns,nt,rt)
+-[nä] +accept(hn)
+-[o] +accept(be,bw,de,ff,ft,hn,kt,pf,rt,st)
+-[ob] +accept(ed,eg,eh,ei,ek,er,es,et,ev,ez)
+-[od] +accept(em,en,er,es,eu,ez)
+-[os] +accept(ta,te,ti,tr,tu,tä,tü)
+-[p] +accept(aa,ar,er,et,la,ol,os,re,ro,rä,ub,un)
+-[pa] +accept(rb,rt)
+-[pe] +accept(rf,rg,rh,rk,rn,rr,rs,rw,rz,tw)
+-[pl] +accept(ag,an,as,au)
+-[po] +accept(st)
+-[pr] +accept(ec,ed,eg,ei,ol,om)
+-[pu] +accept(nd,ni,ns,nt)
+-[q] +accept(ua,ue)
+-[r] +accept(ah,au,ec,ed,eg,ei,ic,ol,om,un,us,uß)
+-[ra] +accept(uc,uf,ug,us,ut,uß)
+-[re] +accept(ig,in)
+-[ri] +accept(ch)
+-[ru] +accept(nd,ni,ns,nt)
+-[s] +accept(ac,ag,ah,ai,am,aß,ch,ec,eh,ei,el,ep,et,ic,ie,in,it,of,og,oh,ol,om,on,ow,pi,pr,pä,ta,te,ti,tr,tu,tä,tü,uc,ys)
+-[sa] +accept(ch,me,mt)
+-[sc] +accept(ha,he,hi)
+-[se] +accept(he,ig,in,lt,tw)
+-[si] +accept(ch,nd,nf,nn,ns,nt,nz,ta)
+-[so] +accept(ff,ft,hn)
+-[sp] +accept(re,ro,rä)
+-[st] +accept(ag,at,ei,it,ra,ro,un)
+-[t] +accept(ag,at,ei,he,it,oc,od,ra,ro,un)
+-[te] +accept(ig,in)
+-[th] +accept(ei,el,er,eu)
+-[ti] +accept(ta)
+-[to] +accept(de)
+-[tr] +accept(ah,au,ol,om)
+-[tu] +accept(nd,ni,ns,nt)
+-[u] +accept(hr,ms,nd,ni,ns,nt,rt)
+-[un] +accept(ic,ie,im)
+-[v] +accept(at,er,ie,om,on,or,öl)
+-[ve] +accept(rf,rg,rh,rk,rn,rr,rs,rw,rz)
+-[vo] +accept(rt)
+-[w] +accept(ah,ar,as,ed,eg,ei,el,en,er,es,ic,ie,il,ir,is,oc,oh,ol,or,ur,äh,är,ür,üs)
+-[wa] +accept(rb,rt)
+-[we] +accept(ig,in,lt,nd,nt,rf,rg,rh,rk,rn,rr,rs,rw,rz)
+-[wi] +accept(ch,st)
+-[wo] +accept(hn,rt)
+-[wu] +accept(rt)
+-[wä] +accept(hn,rg)
+-[x] +accept(av)
+-[y] +accept(ps)
+-[z] +accept(ah,eh,ei,ie,ud,uf,ug,uk,ul,um,un,ur,us,uv,wa,we,wi,wö)
+-[ze] +accept(he,ig,in)
+-[zu] +accept(ms,nd,ni,ns,nt,rt)
+-[zw] +accept(ah,ar,as,ed,eg,ei,el,en,er,es,ic,ie,il,ir,is)
+-[ä] +accept(hn,nd,rg)
+-[ö] +accept(ff,st)
+-[ös] +accept(ta,te,ti,tr,tu,tä,tü)
+-[ü] +accept(be)
+-[üb] +accept(ed,eg,eh,ei,ek,er,es,et,ev,ez)
+
+[a] +accept(ar,at,be,bt,ch,de,dt,ft,ge,gt,hl,hm,hr,lb,ld,ll,ls,lt,mm,mt,nd,ng,nk,nn,nt,nz,pp,rf,rk,rt,ss,st,te,tt,tz,uf,um,us,ut,zu,ße)
+[ab] +accept(ei,en,er,es)
+[ac] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü,ke,kl,kt)
+[ad] +accept(uk,un,ur,us)
+[af] +accept(fe,üg,üh)
+[ag] +accept(eb,eg,en,er,es)
+[ah] +accept(ea,ei,em,en,er,me,re,rh,ri,rl,ru)
+[ai] +accept(na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz,sc,sh,sk,sl,so,sp,ss,st)
+[al] +accept(ia,ic,ie,ik,in,io,it,iz,la,le,li,ls,lt,lu,te,tu,tw)
+[am] +accept(ac,al,an,at,be,bu,ei,en,er,et,il,in,me,sa,st,te)
+[an] +accept(ac,an,ap,at,au,ch,de,dl,do,du,eh,el,en,er,eu,ga,ge,gs,ig,is,iv,kf,kr,kt,ne,no,ns,nt,ta,te,tl,to,ts,tw,ua,un,ut,ze,zi,zw,zö)
+[ar] +accept(ac,ad,ag,ai,am,an,au,aß,be,de,di,ec,eg,ei,ek,em,en,ep,er,es,et,ic,ie,ik,in,it,ka,ke,kl,la,le,li,lo,te,tr,ts,ua,uc,un,up,üb,üc,üh,ün)
+[as] +accept(se,si,sl,st)
+[at] +accept(eh,ei,el,em,en,er,et,ig,ik,im,io,is,sc,sp,st,sä,te,tg,tl,tw,üc,ür,üt)
+[au] +accept(ch,el,fe,fg,fi,fo,ft,pp,pt,sa,sc,si,sl,ss,st)
+[av] +accept(em,er)
+[ay] +accept(er)
+[b] +accept(ar,ei,en,er,ot,st)
+[ba] +accept(ch,ck)
+[be] +accept(ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,sa,sc,se,sh,si,so,sp,sr,ss,st,su)
+[bl] +accept(eg,ei,em,er,et,ia,ic,ie,ik,in,io,it,iz)
+[bn] +accept(ig,is,iv)
+[br] +accept(ac,ad,ag,ai,am,an,au,aß,ua,uc,un,up)
+[bu] +accept(rc,rd,rg,ro,rt,rü)
+[bw] +accept(oc,oh,or)
+[c] +accept(he,hs,ht)
+[ch] +accept(ab,af,al,an,au,de,ea,ei,em,en,er,ic,ie,in,ke,la,le,li,ne,nl,ol,re,rh,ri,rl,ru,st,te,ti,tu,ul,we,ze,äf,ül)
+[ck] +accept(ei,el,er,li,lu,lä,ti,to)
+[d] +accept(at,ee,el,em,en,er,es,et,on)
+[dc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[de] +accept(la,lb,lc,le,lf,ll,ls,lt,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,sa,sc,se,sh,si,so,sp,sr,ss,st,su,ue,ut)
+[di] +accept(eb,ed,eg,eh,el,em,en,er,es,et,eß,ge,gl,gt,na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz)
+[dl] +accept(ia,ic,ie,ik,in,io,it,iz,un)
+[do] +accept(ch)
+[du] +accept(kb,kt,ku,nd,nf,ng,nk,ns,nt,nä,rc,rd,rg,ro,rt,rü,sa,sc,si,sl,ss,st)
+[dw] +accept(ic,in,is)
+[e] +accept(be,de,gt,hn,hr,ht,il,im,in,is,it,iß,kt,ld,le,ll,ln,lt,ma,me,nd,ne,nn,ns,nt,ph,pt,re,rk,rn,rr,rs,rt,se,st,ts,tz,ue,un,ut)
+[ea] +accept(te,ti,ts,tt,tü)
+[eb] +accept(ac,ei,en,er,es,ni,ra,ru)
+[ec] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[ed] +accept(el,en,er,es,eu,ie,ig,in,oc)
+[ef] +accept(ac,ah,al,an,un,ur,üg,üh)
+[eg] +accept(eb,eg,en,er,es,ie,in,io)
+[eh] +accept(ab,af,al,an,au,ea,ei,em,en,er,ic,ie,in,me,ol,re,rh,ri,rl,ru,ör)
+[ei] +accept(be,ch,ck,de,du,eb,ed,eg,eh,el,em,en,er,es,et,eß,fa,ge,gl,gt,lf,li,ll,lo,lt,na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz,sc,sh,sk,sl,so,sp,ss,st,ta,te,tg,ti,ts,tt,tu,tz,tä,ße)
+[ek] +accept(om)
+[el] +accept(am,an,as,at,au,bs,ch,eg,ei,em,er,et,fe,ft,la,le,li,ls,lt,lu,sc,sw,te,tu,tw)
+[em] +accept(ac,al,an,at,be,bu,ei,en,er,et,üs)
+[en] +accept(ac,an,ap,at,au,ba,de,dl,do,du,eh,el,en,er,eu,fa,fo,ft,he,ig,is,iv,ne,no,ns,nt,oc,om,sa,sb,sc,se,sg,si,st,ta,te,tl,to,ts,tw,ua,un,ut,üb)
+[ep] +accept(la,te,ts,ub)
+[er] +accept(ac,ad,ag,ai,am,an,au,aß,de,di,ec,eg,ei,ek,em,en,ep,er,es,et,fa,fe,fo,fü,ga,ge,gl,ha,he,hi,ic,ie,ik,in,it,ka,ke,kl,la,le,li,lo,ma,me,na,ne,pr,re,sc,si,so,st,su,te,tr,ts,ua,uc,un,up,wa,we,ze,zä)
+[es] +accept(ag,am,at,ch,eh,el,em,ep,er,es,et,ha,he,ic,id,il,io,is,it,on,pi,pl,pr,re,se,si,sl,st,ta,te,tm,tr,tü,uc,un)
+[et] +accept(eh,ei,el,em,en,er,et,ob,on,ze,zt,zu)
+[eu] +accept(el,te,ti,tl,ts,tt,tu)
+[ev] +accept(öl)
+[ew] +accept(al,ar,ei,en,es,ic,in,is,oc,oh,or,us)
+[ez] +accept(ei,el,em,en,ep)
+[eß] +accept(la,li)
+[f] +accept(en,er,ig,te,ür)
+[fa] +accept(ch,ck,he,hm,hr,li,ll,lt,na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz)
+[fe] +accept(na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü)
+[ff] +accept(en)
+[fg] +accept(ab,an,ar,ra,ru)
+[fo] +accept(lc,ld,lf,lg,li,ll,rb,rd,re,rg,rj,rm,rs)
+[ft] +accept(ig,ik,im,io,is,ra,re,ri)
+[fu] +accept(nd,nf,ng,nk,ns,nt,nä,rc,rd,rg,ro,rt,rü)
+[fü] +accept(gu,he,hn,hr)
+[g] +accept(ar,en,er,es,st,te)
+[ga] +accept(be,na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz,ra,rb,rd,re,ri,rk,rl,rt,ru,rü)
+[ge] +accept(ba,be,bn,bo,br,ge,gi,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,sa,sc,se,sh,si,so,sp,sr,ss,st,su)
+[gi] +accept(eb,ed,eg,eh,el,em,en,er,es,et,eß,na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz,on)
+[gl] +accept(eg,ei,em,er,et,ia,ic,ie,ik,in,io,it,iz)
+[gr] +accept(ac,ad,ag,ai,am,an,au,aß,ua,uc,un,up)
+[gu] +accept(nd,nf,ng,nk,ns,nt,nä,sa,sc,si,sl,ss,st)
+[h] +accept(ef,en,er,in,lt,ne,on,re,rt,st,te,ts,uf)
+[ha] +accept(be,ff,fü,li,ll,lt,na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz,uc,ue,uf,up,us)
+[hd] +accept(el,en,er,es,eu)
+[he] +accept(at,ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,ma,mb,me,mü,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz)
+[hi] +accept(ch,ck,eb,ed,eg,eh,el,em,en,er,es,et,eß,na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz)
+[hk] +accept(ei,el,er)
+[hl] +accept(am,an,as,at,au,eg,ei,em,er,et,ia,ic,ie,ik,in,io,it,iz)
+[hm] +accept(ei,en,er,et)
+[hn] +accept(eh,el,en,er,eu,le,li)
+[ho] +accept(lc,ld,lf,lg,li,ll)
+[hr] +accept(ec,eg,ei,ek,em,en,ep,er,es,et,ha,he,hi,ic,ie,ik,in,it,la,le,li,lo,ua,uc,un,up)
+[hs] +accept(ta,te,tm,tr,tü)
+[ht] +accept(eh,ei,el,em,en,er,et,ig,ik,im,io,is,ua,ud,un,ut)
+[hu] +accept(le,lt)
+[hw] +accept(ei,en,es)
+[hz] +accept(ei,el,em,en,ep)
+[hö] +accept(rd,re,rs)
+[hü] +accept(le)
+[i] +accept(bt,ch,ck,de,eb,ed,ef,eg,el,en,er,es,eß,ge,gt,he,ld,le,ll,lm,ls,lt,na,nd,ne,ng,nn,nt,on,rd,se,st,te,ts,tt)
+[ia] +accept(ra,rb,rd,re,ri,rk,rl,rt,ru,rü)
+[ib] +accept(ei,en,er,es)
+[ic] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü,ke,kl,kt)
+[id] +accept(el,en,er,es,eu,uk,un,ur,us)
+[ie] +accept(ba,be,bn,bo,br,de,di,do,ge,gi,ha,he,hi,hm,ho,hr,hö,la,lb,lc,le,lf,ll,ls,lt,ma,mb,me,mü,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,sa,sc,se,sh,si,so,sp,sr,ss,st,su,te,to,tz,ßl)
+[if] +accept(ac,ah,al,an)
+[ig] +accept(eb,eg,en,er,es,le,li)
+[ik] +accept(an,au,ei,el,er,un,us)
+[il] +accept(fe,ft,ia,ic,ie,ik,in,io,it,iz,la,le,li,ls,lt,lu,om,or,te,tu,tw)
+[im] +accept(me)
+[in] +accept(ac,an,ap,at,au,de,dl,do,du,eh,el,en,er,eu,fa,fo,ft,ga,ge,gs,ig,is,iv,ma,ne,no,ns,nt,ra,ri,sa,sb,sc,se,sg,si,st,ta,te,tl,to,ts,tw,ua,un,ut,ze,zi,zw,zö)
+[io] +accept(na,nd,ne,nl,nn,nr,ns,nt,nz)
+[ir] +accept(ch,ec,eg,ei,ek,em,en,ep,er,es,et,ka,ke,kl,ma,me,te,tr,ts)
+[is] +accept(ch,ha,he,ka,ku,la,on,pi,pl,pr,se,si,sl,st,ta,te,tm,tr,tü)
+[it] +accept(aa,ad,al,an,ar,at,eh,ei,el,em,en,er,et,ga,gl,ig,ik,im,io,is,sc,sp,st,sä,te,tg,tl,tw,ua,ud,un,ut,ze,zt,zu,är)
+[iv] +accept(em,er)
+[iz] +accept(ei,el,em,en,ep)
+[iß] +accept(er)
+[ja] +accept(he,hm,hr)
+[je] +accept(ko)
+[k] +accept(au,en,er,te,um)
+[ka] +accept(na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz,uc,ue,uf,up,us)
+[kb] +accept(ac)
+[ke] +accept(ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,la,lb,lc,le,lf,ll,ls,lt,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz)
+[kf] +accept(un,ur)
+[kl] +accept(ia,ic,ie,ik,in,io,it,iz,un,är)
+[ko] +accept(ma,me,mm)
+[kr] +accept(ec,eg,ei,ek,em,en,ep,er,es,et)
+[kt] +accept(ig,ik,im,io,is,ob,on)
+[ku] +accept(nd,nf,ng,nk,ns,nt,nä,sa,sc,si,sl,ss,st)
+[l] +accept(ar,em,en,er,es,fe,ge,ie,ig,ik,in,le,ls,lt,on,or,so,te)
+[la] +accept(ma,mb,me,mi,mm,mp,ms,mt,na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz,ss,te,ti,ts,tt,tü,uc,ue,uf,up,us)
+[lc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[le] +accept(ge,gi,ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,ma,mb,me,mü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,te,to,tz)
+[lf] +accept(en,ti,tr)
+[li] +accept(ar,ch,ck,eb,ed,eg,eh,el,em,en,er,es,et,eß,ka,ke,ku,na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz,on,ta,te,tg,ti,ts,tt,tu,tz,tä,ze)
+[lk] +accept(ei,el,er)
+[ll] +accept(am,an,as,at,au,eg,ei,em,er,et,ia,ic,ie,ik,in,io,it,iz,sc,sw,te,tu,tw,un)
+[lo] +accept(ma,me,mm,rb,rd,re,rg,rj,rm,rs)
+[ls] +accept(ch,we)
+[lt] +accept(eh,ei,el,em,en,er,et,ua,ud,un,ut,wa,we,wi,wo)
+[lu] +accept(nd,nf,ng,nk,ns,nt,nä)
+[lä] +accept(re,rk,rt)
+[m] +accept(al,an,en,er,il,it,mt,pf,te)
+[ma] +accept(ch,ck,li,ll,lt,na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz,te,ti,ts,tt,tü)
+[mb] +accept(ei,en,er,es,ur)
+[me] +accept(ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,te,to,tz)
+[mi] +accept(lf,li,ll,lo,lt,na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz)
+[ml] +accept(ia,ic,ie,ik,in,io,it,iz)
+[mm] +accept(ei,en,er,et)
+[ms] +accept(ag,am,at,ta,te,tm,tr,tü)
+[mt] +accept(eh,ei,el,em,en,er,et)
+[mü] +accept(ss)
+[n] +accept(al,au,ce,de,em,en,er,es,et,ft,ge,gs,ig,is,kt,ne,nt,so,st,te,ug,ze)
+[na] +accept(ch,ck,na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz,pa,te,ti,ts,tt,tü,uc,ue,uf,up,us)
+[nb] +accept(ac)
+[nc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[nd] +accept(el,en,er,es,eu,li,lu,oc,uk,un,ur,us)
+[ne] +accept(ha,he,hi,hm,ho,hr,hö,la,lb,lc,le,lf,ll,ls,lt,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,ue,ut)
+[nf] +accept(ac,ah,al,an,ol,or,ti,tr)
+[ng] +accept(ab,an,ar,eb,eg,en,er,es)
+[nh] +accept(ea,ei,em,en,er)
+[ni] +accept(ge,gl,gt,sc,sh,sk,sl,so,sp,ss,st,ve)
+[nk] +accept(fu,re,ti,to)
+[nl] +accept(eg,ei,em,er,et,ia,ic,ie,ik,in,io,it,iz)
+[nm] +accept(ac,al,an,at)
+[nn] +accept(eh,el,en,er,eu,oc,om,sa,sb,sc,se,sg,si,st,ta,te,tl,to,ts,tw)
+[no] +accept(ch,ma,me,mm)
+[nr] +accept(ac,ad,ag,ai,am,an,au,aß,ic,ie,ik,in,it)
+[ns] +accept(ag,am,at,be,ch,eh,el,em,ep,er,es,et,ge,ic,id,il,io,is,it,ta,te,tm,tr,tü)
+[nt] +accept(aa,ad,al,an,ar,at,eh,ei,el,em,en,er,et,le,li,ob,on,sc,sp,st,sä,wa,we,wi,wo)
+[nu] +accept(al,at,nd,nf,ng,nk,ns,nt,nä,te,ti,tl,ts,tt,tu)
+[nz] +accept(ei,el,em,en,ep,wi,ös)
+[nä] +accept(ch)
+[nü] +accept(be)
+[o] +accept(ch,he,hl,hn,lg,ll,nn,pa,pf,ra,rm,rt,tz,ße)
+[oa] +accept(li,ll,lt)
+[ob] +accept(ei,en,er,es,le,li)
+[oc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[od] +accept(el,en,er,es,eu,uk,un,ur,us)
+[of] +accept(ol,or)
+[og] +accept(ab,an,ar,eb,eg,en,er,es,ra,ru)
+[oh] +accept(ea,ei,em,en,er)
+[oj] +accept(ek)
+[ol] +accept(ch,da,fe,ft,ia,ic,ie,ik,in,io,it,iz,la,le,li,ls,lt,lu)
+[om] +accept(ac,al,an,at,ei,en,er,et,me)
+[on] +accept(ac,an,ap,at,au,de,dl,do,du,eh,el,en,er,eu,le,li,ne,no,ns,nt,ra,ri,sa,sb,sc,se,sg,si,st,ta,te,tl,to,ts,tw,ze,zi,zw,zö)
+[op] +accept(äi,ät)
+[or] +accept(be,de,di,ec,eg,ei,ek,em,en,ep,er,es,et,ga,ge,gl,ja,ma,me,sc,si,so,st,su)
+[os] +accept(eh,el,em,ep,er,es,et,ic,id,il,io,is,it,ka,ku,ta,te,tm,tr,tü)
+[ot] +accept(eh,ei,el,em,en,er,et)
+[ov] +accept(em,er)
+[ow] +accept(ic,in,is,oc,oh,or)
+[oz] +accept(ei,el,em,en,ep)
+[oß] +accept(er)
+[p] +accept(an,pe)
+[pe] +accept(ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz)
+[pf] +accept(en)
+[pi] +accept(eb,ed,eg,eh,el,em,en,er,es,et,eß)
+[pl] +accept(am,an,as,at,au)
+[pr] +accept(ac,ad,ag,ai,am,an,au,aß,ec,eg,ei,ek,em,en,ep,er,es,et,ic,ie,ik,in,it,ob,oc,od,og,oj,op,ot,oz,oß,äc,äs)
+[ps] +accept(ic,id,il,io,is,it)
+[pt] +accept(eh,ei,el,em,en,er,et,sc,sp,st,sä)
+[pu] +accept(bl)
+[pä] +accept(is,te,tt)
+[r] +accept(ad,ag,an,au,ch,de,ei,em,en,er,es,ie,il,in,is,kt,ma,oß,se,st,te,um)
+[ra] +accept(ch,ck,du,ge,gt,in,is,ma,mb,me,mi,mm,mp,ms,mt,na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz,uc,ue,uf,up,us)
+[rb] +accept(ei,en,er,es)
+[rc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[rd] +accept(el,en,er,es,eu,ie,ig,in)
+[re] +accept(ch,ge,gi,ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,ko,ma,mb,me,mü,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,pl,pt,pu,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,sa,sc,se,sh,si,so,sp,sr,ss,st,su,te,to,tz)
+[rf] +accept(ac,ah,al,an,en,ol,or,üg,üh)
+[rg] +accept(ab,an,ar,eb,eg,en,er,es,le,li)
+[rh] +accept(ab,af,al,an,au,ea,ei,em,en,er,ic,ie,in)
+[ri] +accept(ch,ck,eb,ed,eg,eh,el,em,en,er,es,et,eß,ka,ke,ku,na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz,ta,te,tg,ti,ts,tt,tu,tz,tä)
+[rj] +accept(ah)
+[rk] +accept(an,au,ei,el,er,li,lu,lä)
+[rl] +accept(am,an,as,at,au,eg,ei,em,er,et,ia,ic,ie,ik,in,io,it,iz,om,or)
+[rm] +accept(ac,al,an,at,ei,en,er,et)
+[rn] +accept(ac,an,ap,at,au,eh,el,en,er,eu)
+[ro] +accept(be,bl,ch,de,du,ga,ge,gr,je,pä,te,ze,ße)
+[rp] +accept(ra,re,ri,ro,rä)
+[rr] +accept(ec,eg,ei,ek,em,en,ep,er,es,et)
+[rs] +accept(ch,ic,id,il,io,is,it,on,ta,te,tm,tr,tü,uc,un)
+[rt] +accept(eh,ei,el,em,en,er,et,ra,re,ri,sc,sp,st,sä)
+[ru] +accept(al,at,ch,nd,nf,ng,nk,ns,nt,nä,pp,pt)
+[rw] +accept(al,ar,ei,en,es)
+[rz] +accept(ei,el,em,en,ep,äh)
+[rä] +accept(ch,sa,si,ss)
+[rö] +accept(ßt)
+[rü] +accept(be,he,hn,hr,nc,ne,nf)
+[s] +accept(am,ar,ch,ef,em,en,er,es,ik,on,se,st,te)
+[sa] +accept(ge,gt,ma,mb,me,mi,mm,mp,ms,mt,te,ti,ts,tt,tü)
+[sb] +accept(ei,en,er,es)
+[sc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[se] +accept(ha,he,hi,hm,ho,hr,hö,la,lb,lc,le,lf,ll,ls,lt,ma,mb,me,mü,pl,pt,pu,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,sa,sc,se,sh,si,so,sp,sr,ss,st,su,te,to,tz)
+[sg] +accept(eb,eg,en,er,es)
+[sh] +accept(ab,af,al,an,au,ea,ei,em,en,er)
+[si] +accept(ch,ck,de,du,lf,li,ll,lo,lt,on,sc,sh,sk,sl,so,sp,ss,st,ta,te,tg,ti,ts,tt,tu,tz,tä)
+[sk] +accept(an,au,un,us)
+[sl] +accept(am,an,as,at,au)
+[so] +accept(na,nd,ne,nl,nn,nr,ns,nt,nz)
+[sp] +accept(ie,la,ra,re,ri,ro,rä)
+[sr] +accept(ec,eg,ei,ek,em,en,ep,er,es,et)
+[ss] +accept(eh,el,em,ep,er,es,et,ic,id,il,io,is,it,la,ta,te,tm,tr,tü)
+[st] +accept(aa,ad,al,an,ar,at,eh,ei,el,em,en,er,et,ma,ra,re,ri,üc,ür,üt)
+[su] +accept(ch,nd,nf,ng,nk,ns,nt,nä)
+[sw] +accept(ei,en,es)
+[sä] +accept(ch)
+[t] +accept(ag,av,ei,el,em,en,er,es,et,ie,ig,ik,on,te,ur,wa,zt,ät)
+[ta] +accept(du,li,ll,lt,na,nc,nd,ne,ng,ni,nk,nn,nt,nu,nz,ra,rb,rd,re,ri,rk,rl,rt,ru,rü,te,ti,ts,tt,tü)
+[te] +accept(ha,he,hi,hm,ho,hr,hö,ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,la,lb,lc,le,lf,ll,ls,lt,ma,mb,me,mü,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz,te,to,tz)
+[tg] +accept(ab,an,ar,le,li)
+[ti] +accept(ge,gl,gt,ka,ke,ku,mm,on,sc,sh,sk,sl,so,sp,ss,st)
+[tl] +accept(eg,ei,em,er,et,ia,ic,ie,ik,in,io,it,iz)
+[tm] +accept(ac,al,an,at)
+[to] +accept(be,bl,na,nd,ne,nl,nn,nr,ns,nt,nz)
+[tr] +accept(ac,ad,ag,ai,am,an,au,aß,ec,eg,ei,ek,em,en,ep,er,es,et,ic,ie,ik,in,it)
+[ts] +accept(ch,pi,pl,pr,ta,te,tm,tr,tü,äc)
+[tt] +accept(eh,ei,el,em,en,er,et,ga,gl,le,li,wa,we,wi,wo)
+[tu] +accept(al,at,de,dw,nd,nf,ng,nk,ns,nt,nä,te,ti,tl,ts,tt,tu)
+[tw] +accept(al,ar,ei,en,es,ic,in,is,oc,oh,or)
+[tz] +accept(ei,el,em,en,ep,te,un)
+[tä] +accept(re,rk,rt)
+[tü] +accept(rd,rf,rg,rl,tz)
+[u] +accept(ar,ch,ck,en,er,es,fe,ft,le,lf,li,nd,ng,ni,pt,rg,ro,rt,rz,se,ss,st,te,to)
+[ua] +accept(li,ll,lt,te,ti,ts,tt,tü)
+[ub] +accept(le,li)
+[uc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[ud] +accept(el,en,er,es,eu,wi)
+[ue] +accept(la,lb,lc,le,lf,ll,ls,lt)
+[uf] +accept(en,ga,gr,ol,or,ti,tr)
+[ug] +accept(eb,eg,en,er,es,le,li,un,us)
+[uk] +accept(ba,ti,to,un,us)
+[ul] +accept(eg,ei,em,er,et,te,tu,tw)
+[um] +accept(il,in)
+[un] +accept(de,dl,do,du,fa,fo,ft,ga,ge,gs,kf,kr,kt,sa,sb,sc,se,sg,si,st,ta,te,tl,to,ts,tw,äc)
+[up] +accept(te,ts)
+[ur] +accept(ch,de,di,ga,ge,gl,ob,oc,od,og,oj,op,ot,oz,oß,te,tr,ts,üb,üc,üh,ün)
+[us] +accept(ag,am,at,ch,ic,id,il,io,is,it,la,se,si,sl,st,ta,te,tm,tr,tü)
+[ut] +accept(eh,ei,el,em,en,er,et,ig,ik,im,io,is,le,li,sc,sp,st,sä,te,tg,tl,tw,ua,ud,un,ut)
+[uß] +accept(er,la,li,te)
+[v] +accept(er,on,or)
+[ve] +accept(ma,mb,me,mü,ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz)
+[vö] +accept(lk,ll)
+[w] +accept(ar,as,ei,er,ie,ig)
+[wa] +accept(li,ll,lt,ra,rb,rd,re,ri,rk,rl,rt,ru,rü)
+[we] +accept(ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,sa,sc,se,sh,si,so,sp,sr,ss,st,su)
+[wi] +accept(ch,ck,na,nd,ne,nf,ng,ni,nm,nn,nr,ns,nt,nu,nz,sc,sh,sk,sl,so,sp,ss,st)
+[wo] +accept(ch,he,rb,rd,re,rg,rj,rm,rs)
+[wu] +accept(sa,sc,si,sl,ss,st)
+[wö] +accept(lk,ll)
+[xp] +accept(er,ra,re,ri,ro,rä)
+[ye] +accept(ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz)
+[ys] +accept(ta,te,tm,tr,tü)
+[z] +accept(ei,en,ig,te)
+[ze] +accept(ib,ic,id,ie,if,ig,ih,il,in,is,it,iß,la,lb,lc,le,lf,ll,ls,lt,ma,mb,me,mü,na,nb,nd,ne,nf,nh,ni,nn,no,ns,nt,nu,nü,pl,pt,pu)
+[zt] +accept(eh,ei,el,em,en,er,et)
+[zu] +accept(nd,nf,ng,nk,ns,nt,nä)
+[zw] +accept(ic,in,is)
+[zä] +accept(hl,hr)
+[zö] +accept(si,su)
+[ß] +accept(en,er,te)
+[ße] +accept(ra,rd,re,rf,rg,rh,ri,rk,rl,rm,rn,rp,rr,rs,rt,ru,rw,rz)
+[ßl] +accept(am,an,as,at,au,ia,ic,ie,ik,in,io,it,iz)
+[ßt] +accept(eh,ei,el,em,en,er,et)
+[ä] +accept(ch,ft,he,lt,re,rt,rz,ßt)
+[äc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[äd] +accept(ch)
+[äh] +accept(la,le,li,re,rh,ri,rl,ru)
+[äi] +accept(sc,sh,sk,sl,so,sp,ss,st)
+[äl] +accept(fe,ft,la,le,li,ls,lt,lu)
+[äm] +accept(li)
+[än] +accept(de,dl,do,du,ga,ge,gs,ne,no,ns,nt)
+[är] +accept(ec,eg,ei,ek,em,en,ep,er,es,et,ka,ke,kl,te,tr,ts)
+[äs] +accept(ag,am,at,ic,id,il,io,is,it,se,si,sl,st)
+[ät] +accept(eh,ei,el,em,en,er,et,te,tg,tl,tw)
+[äu] +accept(fe,fg,fi,fo,ft)
+[ö] +accept(he,lf,ln,rt)
+[öc] +accept(ha,hd,he,hi,hk,hl,hn,ho,hr,hs,ht,hu,hw,hz,hä,hü)
+[ög] +accept(le,li)
+[öl] +accept(ke,la,le,li,ls,lt,lu)
+[ön] +accept(ne,no,ns,nt)
+[ör] +accept(de,di,ec,eg,ei,ek,em,en,ep,er,es,et,sc,si,so,st,su)
+[ös] +accept(ic,id,il,io,is,it,uc,un)
+[öß] +accept(te)
+[ü] +accept(ck,nf)
+[üb] +accept(ei,en,er,es)
+[üg] +accept(un,us)
+[üh] +accept(ea,ei,em,en,er,ne,nl,re,rh,ri,rl,ru)
+[ül] +accept(eg,ei,em,er,et)
+[ün] +accept(ch,eh,el,en,er,eu,fa,fo,ft)
+[ür] +accept(de,di,fa,fe,fo,fü,ga,ge,gl,la,le,li,lo)
+[üs] +accept(se,si,sl,st)
+[üt] +accept(ze,zt,zu)
+[üß] +accept(te)
+
++[a]
++[ab]
++[ad]
++[ag]
++[ah]
++[ai]
++[al]
++[am]
++[an]
++[ar]
++[as]
++[at]
++[au]
++[av]
++[aß]
++[b]
++[be]
++[bt]
++[ce]
++[ch]
++[ck]
++[d]
++[da]
++[de]
++[dt]
++[e]
++[eb]
++[ed]
++[ee]
++[ef]
++[eg]
++[ei]
++[el]
++[em]
++[en]
++[er]
++[es]
++[et]
++[eu]
++[eß]
++[f]
++[fe]
++[ft]
++[g]
++[ge]
++[gs]
++[gt]
++[h]
++[he]
++[hl]
++[hm]
++[hn]
++[hr]
++[hs]
++[ht]
++[i]
++[ie]
++[ig]
++[ik]
++[il]
++[im]
++[in]
++[ir]
++[is]
++[it]
++[iß]
++[k]
++[kt]
++[l]
++[lb]
++[ld]
++[le]
++[lf]
++[lg]
++[li]
++[ll]
++[lm]
++[ln]
++[ls]
++[lt]
++[m]
++[ma]
++[me]
++[mm]
++[mt]
++[n]
++[na]
++[nd]
++[ne]
++[nf]
++[ng]
++[ni]
++[nk]
++[nn]
++[ns]
++[nt]
++[nz]
++[o]
++[od]
++[om]
++[on]
++[or]
++[ot]
++[oß]
++[p]
++[pa]
++[pe]
++[pf]
++[ph]
++[pp]
++[pt]
++[r]
++[ra]
++[rd]
++[re]
++[rf]
++[rg]
++[rk]
++[rm]
++[rn]
++[ro]
++[rr]
++[rs]
++[rt]
++[rz]
++[s]
++[se]
++[so]
++[ss]
++[st]
++[t]
++[te]
++[to]
++[ts]
++[tt]
++[tz]
++[u]
++[ue]
++[uf]
++[ug]
++[um]
++[un]
++[ur]
++[us]
++[ut]
++[uß]
++[v]
++[wa]
++[z]
++[ze]
++[zt]
++[zu]
++[ß]
++[ße]
++[ßt]
++[ät]
++[ür]
+

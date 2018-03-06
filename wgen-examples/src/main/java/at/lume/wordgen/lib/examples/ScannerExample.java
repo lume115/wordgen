@@ -34,6 +34,7 @@ public class ScannerExample {
 		se.runEnglishScanner();
 		se.runNorwegianScanner();
 		se.runPolishScanner();
+		se.runGermanScanner();
 	}
 	
 	private File getFileForRes(final String resFielName) {
@@ -55,5 +56,11 @@ public class ScannerExample {
 	public void runPolishScanner() throws IOException {
 		final Scanner scan = new Scanner.Builder().build();
 		FilesUtil.writeLines(scan.scanFilesForRules(getFileForRes("pl.txt")), new File ("rules_pl.txt"));
+	}
+	
+	public void runGermanScanner() throws IOException {
+		final Scanner scan = new Scanner.Builder().build();
+		FilesUtil.writeLines(scan.scanFilesForWords(getFileForRes("de.txt")), new File("words_de.txt"));
+		FilesUtil.writeLines(scan.scanFilesForRules(getFileForRes("de2.txt")), new File ("rules_de.txt"));
 	}
 }

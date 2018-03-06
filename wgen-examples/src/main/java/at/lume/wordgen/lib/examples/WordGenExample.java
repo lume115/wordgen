@@ -43,6 +43,7 @@ public class WordGenExample {
 		ngExample.testEnglish();
 		ngExample.testNorwegian();
 		ngExample.testPolish();
+		ngExample.testGerman();
 	}
 	
 	private File getFileForRes(final String resFielName) {
@@ -127,5 +128,18 @@ public class WordGenExample {
 		}
 		FilesUtil.writeLines(words, new File("example_pl.txt"));
 		System.out.println("time needed for pseudo-polish: " + (System.currentTimeMillis() - start));
+	}
+	
+	public void testGerman() throws IOException {
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_de.txt"));
+		long start = System.currentTimeMillis();
+		final Set<String> words = new TreeSet<>();
+		while (words.size() < 1000) {
+			final String word = ng.nextWord(2, 5);
+			//System.out.println(word);
+			words.add(word);
+		}
+		FilesUtil.writeLines(words, new File("example_de.txt"));
+		System.out.println("time needed for pseudo-german: " + (System.currentTimeMillis() - start));
 	}
 }

@@ -24,16 +24,20 @@ public class Scanner {
 	
 	private final static String FORBIDDEN_CHARS = "[«¦»!\"§$%&/\\(\\)=\\?1234567890\\{\\}\\[\\]\\\\\\+\\-\\*/;:,\\.<>|#'~–]";
 	
+	private final static String REMOVE_CHARS = "[,?!]$";
+	
 	public static class Builder {
 		Locale locale = Locale.US;
 		boolean isCaseSensitive = false;
 		String forbiddenCharsRegex = FORBIDDEN_CHARS;
+		String removeCharsRegex = REMOVE_CHARS;
 		
 		public Scanner build() {
 			final Scanner scanner = new Scanner();
 			scanner.locale = this.locale;
 			scanner.isCaseSensitive = this.isCaseSensitive;
 			scanner.forbiddenCharsRegex = this.forbiddenCharsRegex;
+			scanner.removeCharsRegex = this.forbiddenCharsRegex;
 			return scanner;
 		}
 		
@@ -51,6 +55,11 @@ public class Scanner {
 			this.forbiddenCharsRegex = regex;
 			return this;
 		}
+		
+		public Builder setRemoveChars(final String regex) {
+			this.removeCharsRegex = regex;
+			return this;
+		}
 	}
 	
 	private final List<Stats> stats = new ArrayList<>();
@@ -60,6 +69,8 @@ public class Scanner {
 	private boolean isCaseSensitive = false;
 	
 	private String forbiddenCharsRegex = FORBIDDEN_CHARS;
+	
+	private String removeCharsRegex = REMOVE_CHARS;
 	
 	private Scanner() { }
 	
@@ -71,14 +82,16 @@ public class Scanner {
 	 */
 	public TreeSet<String> scanFilesForWords(final File...files) throws IOException {
 		final Pattern pattern = Pattern.compile(forbiddenCharsRegex);
+		final Pattern removePatter = Pattern.compile(removeCharsRegex);
 		final TreeSet<String> words = new TreeSet<>();
 		
 		for (final File file : files) {
 			final List<String> lines = FilesUtil.readLines(file);
 		
 			for (final String line : lines) {
-				for (String word : line.split(" ")) {
-					word = word.trim(); 
+				for (String word : line.split("[\\s\\t]")) {
+					word = word.trim();
+					word = removePatter.matcher(word).replaceAll("");
 					if (word.length() > 0 && !pattern.matcher(word).find()) {
 						words.add(isCaseSensitive ? word : word.toLowerCase(locale));
 					}
@@ -126,6 +139,8 @@ public class Scanner {
 			}
 		}
 
+		//System.out.println(fs3.prettyPrint());
+		
 		final List<String> rules = new ArrayList<>();
 		rules.add(generateRules(startMap, "-"));
 		rules.add(generateRules(midMap, ""));
@@ -141,25 +156,24 @@ public class Scanner {
 			if (e.getValue().getStartCount() > 0) {
 				for (final Entry<String, FrequencyPositionStats> ce : CollectionsUtil.getByPrefix(fsLonger.getCountMap(), e.getKey()).entrySet()) {
 					if (ce.getValue().getStartCount() > 0) {
-						final String subKey = e.getKey().substring(1) + ce.getKey().substring(e.getKey().length());
-						for (final Entry<String, FrequencyPositionStats> subCe : CollectionsUtil.getByPrefix(fsLonger.getCountMap(), subKey).entrySet()) {
-							if (subCe.getValue().getStartCount() > 0) {
-								Set<String> curMod = startMap.get(e.getKey());
-								if (curMod == null) {
-									curMod = new TreeSet<>();
-									startMap.put(e.getKey(), curMod);
-								}
-								curMod.add(subCe.getKey().substring(1));
-							}
-						}
-					}
-					if (ce.getValue().getEndCount() > 0) {
 						Set<String> curMod = startMap.get(e.getKey().substring(0,1));
 						if (curMod == null) {
 							curMod = new TreeSet<>();
 							startMap.put(e.getKey().substring(0,1), curMod);
 						}
 						curMod.add(ce.getKey().substring(1));						
+						
+						final String subKey = e.getKey().substring(1) + ce.getKey().substring(e.getKey().length());
+						for (final Entry<String, FrequencyPositionStats> subCe : CollectionsUtil.getByPrefix(fsLonger.getCountMap(), subKey).entrySet()) {
+							if (subCe.getValue().getStartCount() > 0) {
+								curMod = startMap.get(e.getKey());
+								if (curMod == null) {
+									curMod = new TreeSet<>();
+									startMap.put(e.getKey(), curMod);
+								}
+								curMod.add(subCe.getKey().substring(1));								
+							}
+						}
 					}
 				}
 			}
@@ -178,7 +192,7 @@ public class Scanner {
 					if (ce.getValue().getMidCount() > 0) {
 						final String subKey = e.getKey().substring(1) + ce.getKey().substring(e.getKey().length());
 						for (final Entry<String, FrequencyPositionStats> subCe : CollectionsUtil.getByPrefix(fsLonger.getCountMap(), subKey).entrySet()) {
-							if (subCe.getValue().getStartCount() > 0) {
+							if (subCe.getValue().getMidCount() > 0) {
 								Set<String> curMod = midMap.get(e.getKey());
 								if (curMod == null) {
 									curMod = new TreeSet<>();
