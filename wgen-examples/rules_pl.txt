@@ -1,0 +1,680 @@
+-[a] +accept(bo,ca,ch,da,ki,ko,kt,la,le,na,ne,nk,no,nt,to,tr)
+-[ab] +accept(yl,yn,yć,ył)
+-[ac] +accept(ha,hl,ho,hw,hy,hę,hł)
+-[ad] +accept(ro,ru,rz)
+-[ak] +accept(ul,up)
+-[al] +accept(ec,ed,ek,ew)
+-[an] +accept(ib,ic,ie,ig,ik,im,is,iż)
+-[at] +accept(ak,am,at)
+-[au] +accept(tr)
+-[aż] +accept(eb)
+-[b] +accept(aj,ec,ia,ie,ić,ok,ry,yt,yć)
+-[ba] +accept(bs,by)
+-[bl] +accept(ad,as,ic,is)
+-[bo] +accept(ba,bc,be,bi,bo,br,ka,kn,ko,kr,wo,ws)
+-[br] +accept(ad,am,an,az,es,ob,od,ok,oz,za,ze,zu,zą)
+-[bu] +accept(da,dz)
+-[c] +accept(ać,er,es,et,ha,ho,hy,ia,ie,iw,ić,za,ze,zo,zy)
+-[ci] +accept(ch,st)
+-[co] +accept(dd,de,dg,dk,dl,dn,dp,ka,kn,ko,kr,ra)
+-[cz] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś,eg,ew,ob,os,up,ła,ły)
+-[d] +accept(al,ać,ek,em,en,le,no,ny,ok,wo,yś,yż,zo,zy,ło)
+-[da] +accept(ch,lb,le,ni)
+-[dl] +accept(ad,as)
+-[dn] +accept(oc,os,ow)
+-[do] +accept(ba,bc,be,bi,bo,br,jc,ka,kn,ko,kr,ma,po,pr,pu,si,so,st,to,tw,tó,wo,ws)
+-[dr] +accept(ob,od,ok,oz,uc,us,za,ze,zu,zą)
+-[du] +accept(ch,ci,cz,st,sł)
+-[dw] +accept(al,as,ob,od,oj,ok,ol,ód,ów,óz)
+-[dz] +accept(ie,im)
+-[e] +accept(go)
+-[eg] +accept(od,or,os,ot,oś)
+-[fa] +accept(ch,ku,lb,le)
+-[fr] +accept(ad,am,an,az)
+-[g] +accept(dy,oś,ła)
+-[gd] +accept(ym,yr,zi)
+-[gn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+-[go] +accept(dd,de,dg,dk,dl,dn,dp,ra,si,so,st,to,tw,tó)
+-[gr] +accept(ad,am,an,az,uc,us)
+-[gw] +accept(al,as)
+-[gł] +accept(ód,óż)
+-[hi] +accept(st)
+-[hr] +accept(ad,am,an,az)
+-[i] +accept(la,mo,na,no,st)
+-[ic] +accept(ha,hl,ho,hw,hy,hę,hł)
+-[il] +accept(ec,ed,ek,ew)
+-[is] +accept(ta,to,tr,tó,tą)
+-[j] +accept(em)
+-[ja] +accept(ku)
+-[je] +accept(go)
+-[ju] +accept(tr)
+-[k] +accept(az,ać,iś,le,oś,ro)
+-[ka] +accept(że)
+-[ki] +accept(le)
+-[kl] +accept(ub,ud)
+-[ko] +accept(ba,bc,be,bi,bo,br,ch,cz,gi,gr,ma,na,no,ra,to,tw,tó)
+-[kr] +accept(ad,am,an,az,es,ob,od,ok,oz,za,ze,zu,zą,ów)
+-[ks] +accept(ie,il,io,ię,ił,zc,ze,zk,zt,zu,zy)
+-[kt] +accept(om,on,ot,ow)
+-[ku] +accept(pr)
+-[l] +accept(ad,an,eb,ec,em,et,eć,eż,ić,ot)
+-[la] +accept(dr)
+-[li] +accept(ch,st)
+-[lo] +accept(si,so,st)
+-[lu] +accept(br,da,dz)
+-[m] +accept(al,at,ać,ia,ie,ię,no,ny,oc,uś)
+-[ma] +accept(ta)
+-[mg] +accept(ło,łu,łó,łą,łę)
+-[mi] +accept(le,mp,st)
+-[mn] +accept(óż)
+-[mo] +accept(ch,cz,jc,ma,ra,wo,ws)
+-[mr] +accept(ob,od,ok,oz)
+-[n] +accept(ad,ak,ać,ał,ek,ie,ik,im,io,ić,oc,ów)
+-[na] +accept(dr,ta,ut)
+-[ni] +accept(ch,mp,st)
+-[no] +accept(ch,cz,si,so,st,wo,ws)
+-[nu] +accept(mr,my)
+-[o] +accept(ba,cy,da,dy,ga,gi,go,je,ki,ko,mo,na,ny,ra,ro,ry,st,sy,ta,wa,wo,wu,wy)
+-[ob] +accept(ab,ar,ez,ie,ob,ok,ow,ra,re,ro,rz)
+-[oc] +accept(ha,hl,ho,hw,hy,hę,hł,za,ze,zo,zt,zu,zy,zę,zł)
+-[od] +accept(el,es,la,no)
+-[og] +accept(ra,ru)
+-[ok] +accept(am,ap,aw,aż,ob,oc,og,ol,om,on,or,ot,oł,oń,ra,re,ro,rz,ró)
+-[om] +accept(aj,am,ar,at,ał)
+-[on] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,oc,os,ow)
+-[op] +accept(oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś,ra,ro,rz,ró,rę,un,us,uł)
+-[or] +accept(ad,am,an,az)
+-[os] +accept(ie,il,io,ię,ił,ob,ta,to,tr,tó,tą)
+-[ot] +accept(om,on,ot,ow,wa,wó)
+-[ow] +accept(ob,od,oj,ok,ol,sc,sp,sz)
+-[p] +accept(ak,ać,ał,ić,od,ół,ło)
+-[pa] +accept(lb,le,ni,ta)
+-[pi] +accept(st)
+-[pl] +accept(ad,as,ec,ed,ek,ew)
+-[po] +accept(ch,cz,dd,de,dg,dk,dl,dn,dp,ka,kn,ko,kr,ma,na,no,po,pr,pu,ra,si,so,st,to,tw,tó,wo,ws)
+-[pr] +accept(ad,am,an,az,ob,od,ok,oz,za,ze,zu,zą,ów,ęk)
+-[pt] +accept(ak,am,at)
+-[pu] +accept(st,sł)
+-[pł] +accept(ag,at)
+-[r] +accept(aj,ak,at,az,ać,ał,ek,em,en,es,ew,ok,oń,um,ze,zy,ód,ój,ól,ót,óż,ęt)
+-[ra] +accept(dr,ni)
+-[ro] +accept(ba,bc,be,bi,bo,br,dd,de,dg,dk,dl,dn,dp,ka,kn,ko,kr)
+-[ru] +accept(ch,ci,cz,st,sł)
+-[rz] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś,eg,ew,up)
+-[s] +accept(ać,ce,cy,em,ić,ko,or,ta,to,ty,yć,za,ze,ło)
+-[sc] +accept(ha,hl,ho,hw,hy,hę,hł)
+-[si] +accept(le)
+-[sk] +accept(ob,oc,og,ol,om,on,or,ot,oł,oń,ul,up)
+-[so] +accept(ba,bc,be,bi,bo,br)
+-[sp] +accept(al,am,an,ap,ar,as,at,ań,ew,eł,oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś,ra,ro,rz,ró,rę)
+-[st] +accept(ak,am,at,om,on,ot,ow,ru,rz)
+-[sw] +accept(ob,od,oj,ok,ol,ód,ów,óz)
+-[sz] +accept(eg,ew,up)
+-[sł] +accept(ag,at)
+-[t] +accept(aj,ak,an,ać,ek,em,en,er,eż,or,oś,ra,ro,ry,rz,uł,wo,ło)
+-[ta] +accept(ku,ta)
+-[te] +accept(go)
+-[to] +accept(ma,na,no,to,tw,tó,wo,ws)
+-[tr] +accept(uc,us,za,ze,zu,zą)
+-[tu] +accept(tr)
+-[tw] +accept(al,as,ód,ów,óz)
+-[u] +accept(by,ch,cz,ka,pa,pi,sz)
+-[ub] +accept(ra,re,ro,rz)
+-[uc] +accept(ha,hl,ho,hw,hy,hę,hł,ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+-[ud] +accept(ac,al,an,aw,ać,zi)
+-[uk] +accept(ra,re,ro,rz,ró)
+-[um] +accept(ro,yś)
+-[up] +accept(ra,ro,rz,ró,rę)
+-[us] +accept(ta,to,tr,tó,tą,ła,ło,łu,ły)
+-[ut] +accept(ru,rz)
+-[uw] +accept(al,as,ia,id,ie,in,ię,ob,od,oj,ok,ol)
+-[uś] +accept(mi)
+-[w] +accept(aj,ać,aż,em,et,ie,ić,ko,ód,ój,ór)
+-[wa] +accept(lb,le)
+-[wb] +accept(ra,re,ro,rz)
+-[wc] +accept(ał,ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+-[wi] +accept(nn)
+-[wk] +accept(ra,re,ro,rz,ró)
+-[wo] +accept(ba,bc,be,bi,bo,br,dd,de,dg,dk,dl,dn,dp,jc,ka,kn,ko,kr)
+-[wp] +accept(ra,ro,rz,ró,rę,ój,ók,ół,óź,ła)
+-[wr] +accept(ad,am,an,az,es,ów,ęk)
+-[ws] +accept(ch,pa,pe,po,pr,zc,ze,zk,zt,zu,zy)
+-[wt] +accept(eg,el,em,en,er,eż)
+-[wz] +accept(da,de,do,dr,go,ie,im,re,ro)
+-[wł] +accept(ag,at)
+-[wś] +accept(ro)
+-[z] +accept(aj,ak,as,ać,ec,ed,ef,eg,ej,ek,em,ez,eć,eń,ia,ie,ić,iś,na,um,uć,wi)
+-[za] +accept(bs,by,ch,dr,lb,le,ni,ta,ut)
+-[zb] +accept(yl,yn,yć,ył)
+-[zd] +accept(ac,al,an,aw,ać,el,es,ob,oj,ok,om,oo,op,os,ot,ow,oś,ro,ru,rz)
+-[ze] +accept(go)
+-[zg] +accept(od,or,os,ot,oś)
+-[zi] +accept(mp)
+-[zm] +accept(ia,ie,il,im,is,ię,ił)
+-[zn] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,ib,ic,ie,ig,ik,im,is,iż,oc,os,ow,óż)
+-[zo] +accept(ba,bc,be,bi,bo,br,si,so,st)
+-[zr] +accept(es,ob,od,ok,oz)
+-[zu] +accept(pr)
+-[zw] +accept(ia,id,ie,in,ię,ra,re,ró,rę,yg,yj,yk,yo,yp,yr,ys,yt,ył,ła,ło)
+-[zz] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś)
+-[zł] +accept(ag,at)
+-[ł] +accept(ad,ać,ek,en)
+-[ła] +accept(ta)
+-[ś] +accept(li,no)
+-[śl] +accept(ad,as)
+-[śm] +accept(ia,ie,il,im,is,ię,ił)
+-[śn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+-[śr] +accept(ob,od,ok,oz)
+-[św] +accept(ia,id,ie,in,ię)
+-[ź] +accept(le)
+-[źl] +accept(ec,ed,ek,ew)
+-[ż] +accept(ar,ać,yc,yć)
+-[ża] +accept(dr,lb,le)
+-[żo] +accept(na,no)
+
+[a] +accept(bo,ca,ch,da,ki,ko,kt,la,le,ma,mi,na,ne,nk,no,nt,ra,ry,rz,sk,st,sz,to,tr,wa,wo,zy,ło,łt)
+[ab] +accept(ie,ra,re,ro,rz)
+[ac] +accept(ał,el,en,ha,hl,ho,hw,hy,hę,hł,ia,ic,ie,io,is,ią,ię,od,ok,or,oś,za,ze,zo,zt,zu,zy,zę,zł)
+[ad] +accept(ac,al,an,aw,ać,el,es,no,ob,oj,ok,om,oo,op,os,ot,ow,oś,zi)
+[ag] +accept(ni,od,or,os,ot,oś)
+[aj] +accept(ec,ed,eg,ej,es,eś,eż,ut,uż)
+[ak] +accept(ie,il,ob,oc,og,ol,om,on,or,ot,oł,oń,to,tó)
+[al] +accept(ec,ed,ek,ew)
+[am] +accept(ia,ie,il,im,is,ię,ił,oc,oj,om,or,ow,oż)
+[an] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,ib,ic,ie,ig,ik,im,is,iż,oc,os,ow)
+[ap] +accept(al,am,an,ap,ar,as,at,ań,ew,eł,ie,is,iw,ię,oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś,ra,ro,rz,ró,rę,yt)
+[ar] +accept(ad,am,an,az,es,za,ze,zu,zą,ów)
+[as] +accept(am,en,er,ta,to,tr,tó,tą,zc,ze,zk,zt,zu,zy)
+[at] +accept(eg,el,em,en,er,eż,om,on,ot,ow,ru,rz,ut,uż,wa,wó,yd,yl,ym,ys,yt,ył,łu)
+[au] +accept(ch,ci,cz,wa,wi,wo)
+[aw] +accept(al,as,ed,ej,es,ew,ia,id,ie,in,ię,sc,sp,sz,zd,zg,zi,zr)
+[az] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś,eg,ew,ie,im,wi,wr,wy,wł)
+[ał] +accept(ag,at,eb)
+[aś] +accept(ni)
+[aż] +accept(ad,al,eb,yc,yć)
+[b] +accept(aj,cy,ec,ia,ie,ić,ko,ne,no,ny,ok,ry,yt,yć)
+[ba] +accept(ch)
+[bc] +accept(ia,ic,ie,io,is,ią,ię)
+[bi] +accept(ść)
+[bl] +accept(ec,ed,ek,ew)
+[bn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[bo] +accept(dd,de,dg,dk,dl,dn,dp,jc,ka,kn,ko,kr,to,tw,tó,wo,ws)
+[br] +accept(ad,am,an,az,es,za,ze,zu,zą)
+[bs] +accept(ob)
+[c] +accept(ać,er,es,et,ha,ho,hy,ia,ie,iw,ić,ja,ko,no,za,ze,zo,zy)
+[ca] +accept(lb,le)
+[cj] +accept(ak,as)
+[cn] +accept(ib,ic,ie,ig,ik,im,is,iż,oc,os,ow)
+[co] +accept(wo,ws)
+[cz] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś,eg,ew,na,ni,no,nó,ob,os,up)
+[d] +accept(al,ać,ca,ek,em,en,io,ko,ku,le,no,ny,ok,to,wo,yś,yż,zo,zy,ło)
+[da] +accept(lb,le,ni)
+[dc] +accept(za,ze,zo,zt,zu,zy,zę,zł)
+[dd] +accept(ac,al,an,aw,ać,el,es,zi)
+[dg] +accept(ło,łu,łó,łą,łę)
+[dl] +accept(ec,ed,ek,ew)
+[dm] +accept(ia,ie,il,im,is,ię,ił)
+[dn] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,ib,ic,ie,ig,ik,im,is,iż,oc,os,ow)
+[do] +accept(ba,bc,be,bi,bo,br,ch,cz,ma,po,pr,pu,wo,ws)
+[dp] +accept(oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś)
+[dr] +accept(es,ob,od,ok,oz,ów)
+[dt] +accept(eg,el,em,en,er,eż)
+[dw] +accept(ia,id,ie,in,ię)
+[dz] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś,eg,ew,ie,im)
+[e] +accept(ba,bo,by,ch,ci,co,cy,cz,de,dy,dź,go,je,ko,le,li,mu,ns,nt,ra,ro,rw,ry,rz,rć,rś,st,ta,ty,wo,ło,ść,źć,żo)
+[eb] +accept(ab,ar,ez,ie)
+[ec] +accept(ha,hl,ho,hw,hy,hę,hł,ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+[ed] +accept(ac,al,an,aw,ać,el,es,la,no,wa,wo,wó,ym,yr,zi,ło,łu)
+[eg] +accept(ar,dy,dz,od,or,os,ot,oś,ło,łu,łó,łą,łę)
+[ek] +accept(am,ap,aw,aż,ie,il,ob,oc,og,ol,om,on,or,ot,oł,oń,to,tó)
+[el] +accept(ec,ed,ek,ew,ic,is,ub,ud)
+[em] +accept(aj,am,ar,at,ał,ia,ie,il,im,is,ię,ił,nó)
+[en] +accept(er,ib,ic,ie,ig,ik,im,is,iż)
+[ep] +accept(ew,eł,oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś,ła)
+[er] +accept(ad,am,an,az,es,ob,od,ok,oz,uc,us,za,ze,zu,zą)
+[es] +accept(ie,il,io,ię,ił,ob,pa,pe,po,pr,ta,to,tr,tó,tą,zc,ze,zk,zt,zu,zy,ła,ło,łu,ły)
+[et] +accept(ru,rz)
+[eu] +accept(st,sł)
+[ew] +accept(al,as,ca,ci,cz,ia,id,ie,in,ię)
+[ez] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś,by,mi,wi,wr,wy,wł)
+[eł] +accept(eb)
+[eś] +accept(la,ni)
+[eź] +accept(le)
+[eż] +accept(eb,yc,yć)
+[f] +accept(on)
+[fi] +accept(ch)
+[g] +accept(dy,le,oś,ła)
+[gd] +accept(ym,yr,zi)
+[gl] +accept(ęk)
+[gn] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,ib,ic,ie,ig,ik,im,is,iż)
+[go] +accept(dd,de,dg,dk,dl,dn,dp)
+[gr] +accept(ob,od,ok,oz)
+[h] +accept(ać,oć,ód)
+[ha] +accept(ni)
+[hc] +accept(za,ze,zo,zt,zu,zy,zę,zł)
+[hl] +accept(ec,ed,ek,ew)
+[hm] +accept(ia,ie,il,im,is,ię,ił)
+[ho] +accept(ch,cz,dd,de,dg,dk,dl,dn,dp,ma,ra,wo,ws)
+[hw] +accept(ia,id,ie,in,ię)
+[i] +accept(ad,aj,ar,at,ać,ał,aż,by,ec,eg,ej,ek,el,em,en,er,es,ew,eć,eń,eś,eż,kt,la,mo,na,no,os,ot,st,um,we,wo,wy,ąc,ąg,ąt,ąć,ąż,ęc,ęk,ęć,ła,ło,ły)
+[ia] +accept(dr,lb,le,ni,ta)
+[ic] +accept(el,en,ha,hl,ho,hw,hy,hę,hł,ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+[id] +accept(ac,al,an,aw,ać,ob,oj,ok,om,oo,op,os,ot,ow,oś,zi)
+[ie] +accept(go)
+[ig] +accept(dy,dz)
+[ik] +accept(am,ap,aw,aż,ob,oc,og,ol,om,on,or,ot,oł,oń)
+[im] +accept(nó)
+[in] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[io] +accept(si,so,st,to,tw,tó,wo,ws)
+[is] +accept(am,ie,il,io,ię,ił,ko,ku,kó,ką,ta,to,tr,tó,tą,zc,ze,zk,zt,zu,zy)
+[it] +accept(ak,am,at)
+[iw] +accept(ia,id,ie,in,ię,kr,ob,od,oj,ok,ol)
+[j] +accept(em,na,ny,or,ąć,ść)
+[ja] +accept(ch,lb,le)
+[jc] +accept(ia,ic,ie,io,is,ią,ię)
+[jm] +accept(ia,ie,il,im,is,ię,ił,nó)
+[jn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[jp] +accept(ie,is,iw,ię)
+[jr] +accept(za,ze,zu,zą)
+[js] +accept(ch)
+[ju] +accept(tr)
+[k] +accept(az,ać,by,iś,ko,le,no,ny,oś,ro,ój,ół,ąd,że)
+[ka] +accept(ni,ta)
+[kn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[ko] +accept(dd,de,dg,dk,dl,dn,dp,gi,gr,jc,na,no,ra,wo,ws)
+[kr] +accept(es,ob,od,ok,oz,za,ze,zu,zą,ów,ęk)
+[ks] +accept(zc,ze,zk,zt,zu,zy)
+[kt] +accept(eg,el,em,en,er,eż,om,on,ot,ow)
+[ku] +accept(tr)
+[kł] +accept(ag,at)
+[l] +accept(ad,an,bo,eb,ec,em,et,eć,eż,ić,ka,ki,ko,no,ny,ot,ąd)
+[la] +accept(ch,ta)
+[lc] +accept(za,ze,zo,zt,zu,zy,zę,zł)
+[le] +accept(go)
+[li] +accept(ch,st)
+[lk] +accept(am,ap,aw,aż)
+[ln] +accept(ib,ic,ie,ig,ik,im,is,iż,oc,os,ow)
+[lu] +accept(ch,ci,cz,st,sł,tr)
+[lw] +accept(ia,id,ie,in,ię)
+[m] +accept(al,at,ać,ek,er,ia,ie,ię,no,ny,oc,uś)
+[ma] +accept(ch)
+[mc] +accept(za,ze,zo,zt,zu,zy,zę,zł)
+[mi] +accept(mp)
+[mn] +accept(ib,ic,ie,ig,ik,im,is,iż,oc,os,ow)
+[mo] +accept(ch,cz,wo,ws)
+[mp] +accept(ew,eł)
+[mr] +accept(za,ze,zu,zą)
+[mt] +accept(eg,el,em,en,er,eż)
+[n] +accept(ad,ak,ać,ał,ek,ie,ik,im,io,ić,ka,kt,na,ny,oc,ów)
+[na] +accept(ch,dr,ku,lb,le)
+[ni] +accept(st)
+[nn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[no] +accept(ch,cz,wo,ws)
+[nt] +accept(ak,am,at,ru,rz)
+[o] +accept(ba,cy,da,dy,ga,gi,go,je,ki,ko,le,li,mo,na,ny,ra,ro,ry,st,sy,ta,wa,wo,wu,wy,za,ła,ło,ść,że)
+[ob] +accept(ab,ar,ez,ie,la,li,ob,ok,ow,ra,re,ro,rz,yl,yn,yć,ył)
+[oc] +accept(el,en,ha,hl,ho,hw,hy,hę,hł,ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+[od] +accept(ac,al,an,aw,ać,el,es,no,ob,oj,ok,om,oo,op,os,ot,ow,oś,ro,ru,rz,zi)
+[og] +accept(od,or,os,ot,oś)
+[ok] +accept(am,ap,aw,aż,ob,oc,og,ol,om,on,or,ot,oł,oń,to,tó)
+[ol] +accept(ec,ed,ek,ew,ic,is,os,ub,ud)
+[om] +accept(ia,ie,il,im,is,ię,ił,nó,oc,oj,om,or,ow,oż,ur,uz,yś)
+[on] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,ib,ic,ie,ig,ik,im,is,iż,oc,os,ow,um)
+[oo] +accept(ka,kn,ko,kr)
+[op] +accept(al,am,an,ap,ar,as,at,ań,ie,is,iw,ię,oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś,ra,ro,rz,ró,rę,ój,ók,ół,óź)
+[or] +accept(ad,am,an,az,es,ob,od,ok,oz,uc,us,za,ze,zu,zą)
+[os] +accept(ie,il,io,ię,ił,ko,ku,kó,ką,pa,pe,po,pr,ta,to,tr,tó,tą,yg,yn,ys,yt,ła,ło,łu,ły)
+[ot] +accept(eg,el,em,en,er,eż,ru,rz,yd,yl,ym,ys,yt,ył)
+[ow] +accept(al,as,ca,ci,cz,ia,id,ie,in,ię,ob,od,oj,ok,ol,ra,re,ró,rę,sc,sp,sz,ód,ów,óz)
+[oz] +accept(by,da,de,do,dr,mi,na,ni,no,nó,ob,os,up,wi,wr,wy,wł)
+[oś] +accept(ni,ro)
+[p] +accept(ak,ać,ał,ić,ny,od,ół,ło)
+[pa] +accept(ch,dr,ni)
+[pi] +accept(st)
+[pl] +accept(ic,is)
+[pn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[po] +accept(dd,de,dg,dk,dl,dn,dp,jc,ka,kn,ko,kr,ma,ra,si,so,st,to,tw,tó,wo,ws)
+[pr] +accept(ad,am,an,az,ob,od,ok,oz,za,ze,zu,zą,ów)
+[pu] +accept(śm)
+[r] +accept(aj,ak,at,az,ać,ał,ce,ek,em,en,es,ew,ia,ka,ny,ok,oń,um,yć,yś,ze,zy,ód,ój,ól,ót,óż,ęt)
+[ra] +accept(bs,by,ch,dr,ku,lb,le,ni,że)
+[rc] +accept(ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+[rd] +accept(el,es,zi,ło,łu)
+[re] +accept(go)
+[rn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[ro] +accept(ba,bc,be,bi,bo,br,ch,cz,dd,de,dg,dk,dl,dn,dp,fi,gi,gr,ka,kn,ko,kr,ma,na,no,po,pr,pu,si,so,st,wo,ws)
+[rp] +accept(la,le)
+[ru] +accept(br,ch,ci,cz,da,dz,pr)
+[rw] +accept(ob,od,oj,ok,ol)
+[rz] +accept(eg,ew,up,wi,wr,wy,wł)
+[rż] +accept(ad,al)
+[s] +accept(ać,ce,cy,em,ić,ko,no,ny,or,ta,to,ty,yć,za,ze,ób,ło)
+[sc] +accept(ha,hl,ho,hw,hy,hę,hł)
+[sk] +accept(am,ap,aw,aż,ob,oc,og,ol,om,on,or,ot,oł,oń)
+[so] +accept(ba,bc,be,bi,bo,br,ka,kn,ko,kr)
+[sp] +accept(al,am,an,ap,ar,as,at,ań,ie,is,iw,ię,oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś)
+[st] +accept(ak,am,at,eg,el,em,en,er,eż,om,on,ot,ow,ru,rz,wa,wó)
+[sz] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś,eg,ew,na,ni,no,nó,ob,os,ła,ły)
+[t] +accept(aj,ak,an,ać,ce,ek,em,en,er,eż,ka,ki,ko,ni,or,oś,ra,ro,ry,rz,uł,wo,ów,ół,óż,ąd,ło)
+[ta] +accept(ku,lb,le,ni,ta)
+[te] +accept(go)
+[tk] +accept(am,ap,aw,aż,ob,oc,og,ol,om,on,or,ot,oł,oń)
+[tn] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,ib,ic,ie,ig,ik,im,is,iż)
+[to] +accept(ka,kn,ko,kr,ma,po,pr,pu,ra,to,tw,tó,wo,ws)
+[tp] +accept(la,le)
+[tr] +accept(ad,am,an,az,ob,od,ok,oz,uc,us,za,ze,zu,zą,ów)
+[tu] +accept(kr)
+[tw] +accept(al,as,ob,od,oj,ok,ol)
+[u] +accept(by,ch,cz,gi,go,ka,la,pa,pi,ro,sz,żo,ży)
+[ua] +accept(ch)
+[uc] +accept(ha,hl,ho,hw,hy,hę,hł,ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+[ud] +accept(no,ym,yr)
+[uk] +accept(am,ap,aw,aż)
+[um] +accept(aj,am,ar,at,ał,ia,ie,il,im,is,ię,ił)
+[up] +accept(ew,eł,ie,is,iw,ię)
+[ur] +accept(ad,am,an,az)
+[us] +accept(ta,to,tr,tó,tą,zc,ze,zk,zt,zu,zy)
+[ut] +accept(ak,am,at,eg,el,em,en,er,eż,om,on,ot,ow,ru,rz)
+[uw] +accept(al,as)
+[uż] +accept(yc,yć)
+[w] +accept(aj,ać,aż,da,dy,em,et,ie,ić,ko,ne,no,ny,ód,ój,ór)
+[wa] +accept(dr,ni,że)
+[wc] +accept(za,ze,zo,zt,zu,zy,zę,zł)
+[wd] +accept(ob,oj,ok,om,oo,op,os,ot,ow,oś,zi)
+[wi] +accept(ch,le,st,ść)
+[wn] +accept(ib,ic,ie,ig,ik,im,is,iż,oc,os,ow)
+[wo] +accept(ba,bc,be,bi,bo,br,jc,na,no,ra,wo,ws)
+[wr] +accept(ów)
+[ws] +accept(ta,to,tr,tó,tą,zc,ze,zk,zt,zu,zy)
+[wz] +accept(ab,ac,ad,aj,al,am,an,ap,ar,at,au,aw,az,aś)
+[wł] +accept(ag,at)
+[y] +accept(ba,by,ka,le,li,mś,na,ny,sł,ły,śl)
+[yc] +accept(ha,hl,ho,hw,hy,hę,hł,ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+[yd] +accept(ob,oj,ok,om,oo,op,os,ot,ow,oś,zi)
+[yg] +accept(ni,od,or,os,ot,oś)
+[yj] +accept(ak,as,ec,ed,eg,ej,es,eś,eż)
+[yk] +accept(lu,ob,oc,og,ol,om,on,or,ot,oł,oń,ra,re,ro,rz,ró)
+[ym] +accept(aj,am,ar,at,ał)
+[yn] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,er,ib,ic,ie,ig,ik,im,is,iż)
+[yo] +accept(ba,bc,be,bi,bo,br)
+[yp] +accept(al,am,an,ap,ar,as,at,ań,oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś)
+[yr] +accept(ad,am,an,az,es)
+[ys] +accept(ch,ie,il,io,ię,ił,ko,ku,kó,ką,ob,ta,to,tr,tó,tą,zc,ze,zk,zt,zu,zy)
+[yt] +accept(ak,am,at,ut,uż,łu)
+[yw] +accept(ia,id,ie,in,ię)
+[yz] +accept(na,ni,no,nó)
+[yś] +accept(la)
+[z] +accept(aj,ak,as,ać,cz,ec,ed,ef,eg,ej,ek,em,ez,eć,eń,ia,ie,ić,iś,na,ta,tą,um,uć,wi,yk,ym,yć,yż,ód,ór,ąd,ąć)
+[za] +accept(dr,ku,lb,le)
+[zb] +accept(yl,yn,yć,ył)
+[zc] +accept(ia,ic,ie,io,is,ią,ię,za,ze,zo,zt,zu,zy,zę,zł)
+[zd] +accept(zi,ło,łu)
+[ze] +accept(go)
+[zi] +accept(nn,st)
+[zk] +accept(am,ap,aw,aż,ob,oc,og,ol,om,on,or,ot,oł,oń)
+[zm] +accept(aj,am,ar,at,ał,ia,ie,il,im,is,ię,ił,oc,oj,om,or,ow,oż)
+[zn] +accept(ad,ag,aj,ap,ar,as,at,au,aw,az,ib,ic,ie,ig,ik,im,is,iż)
+[zo] +accept(ra,si,so,st)
+[zp] +accept(ie,is,iw,ię,oc,od,oe,ok,ol,om,on,op,or,os,ot,ow,oz,oł,oś)
+[zr] +accept(ob,od,ok,oz)
+[zt] +accept(ak,am,at,eg,el,em,en,er,eż,ut,uż)
+[zu] +accept(ch,ci,cz,kr,mr,my)
+[zw] +accept(al,as,ia,id,ie,in,ię,ob,od,oj,ok,ol,yg,yj,yk,yo,yp,yr,ys,yt,ył)
+[ó] +accept(cz,dz,dź,ki,ra,ry,zg)
+[ób] +accept(ob,ok,ow)
+[óc] +accept(ia,ic,ie,io,is,ią,ię)
+[ór] +accept(es)
+[ós] +accept(ta,to,tr,tó,tą)
+[ów] +accept(ca,ci,cz,ia,id,ie,in,ię)
+[ą] +accept(co,dz,dź)
+[ąc] +accept(za,ze,zo,zt,zu,zy,zę,zł)
+[ąt] +accept(eg,el,em,en,er,eż,ru,rz)
+[ąz] +accept(eg,ew)
+[ć] +accept(by)
+[ćd] +accept(zi)
+[ę] +accept(cz,ka,ki,ta,ty,ść)
+[ęb] +accept(ob,ok,ow)
+[ęd] +accept(el,es,zi)
+[ęk] +accept(si,sz)
+[ęs] +accept(ta,to,tr,tó,tą)
+[ęt] +accept(ak,am,at)
+[ęś] +accept(la)
+[ęż] +accept(ad,al,yc,yć)
+[ł] +accept(ad,ać,ek,en,os,oń,ug,um,uż,yw,ąb,ąd)
+[ła] +accept(bs,by,dr)
+[łk] +accept(ie,il,ob,oc,og,ol,om,on,or,ot,oł,oń)
+[łn] +accept(ib,ic,ie,ig,ik,im,is,iż,oc,os,ow)
+[ło] +accept(dd,de,dg,dk,dl,dn,dp,ka,kn,ko,kr,po,pr,pu,si,so,st,wo,ws)
+[łt] +accept(om,on,ot,ow)
+[łu] +accept(ch,ci,cz,da,dz,mr,my,pr,st,sł)
+[ń] +accept(ce)
+[ńc] +accept(za,ze,zo,zt,zu,zy,zę,zł)
+[ńs] +accept(ta,to,tr,tó,tą)
+[ś] +accept(ci,li,no)
+[śc] +accept(ia,ic,ie,io,is,ią,ię)
+[śl] +accept(ec,ed,ek,ew,ic,is)
+[śm] +accept(ia,ie,il,im,is,ię,ił)
+[śn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[śr] +accept(es,ob,od,ok,oz,ów)
+[ź] +accept(le,no)
+[źn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+[źw] +accept(ia,id,ie,in,ię)
+[ż] +accept(ar,ać,by,dy,ki,ko,ny,yc,yć)
+[ża] +accept(ni)
+[żc] +accept(za,ze,zo,zt,zu,zy,zę,zł)
+[żl] +accept(ic,is)
+[żn] +accept(ib,ic,ie,ig,ik,im,is,iż)
+
++[a]
++[ad]
++[aj]
++[ak]
++[al]
++[am]
++[an]
++[ar]
++[as]
++[at]
++[az]
++[ać]
++[ał]
++[aś]
++[aż]
++[b]
++[ba]
++[bo]
++[by]
++[c]
++[ca]
++[ce]
++[ch]
++[ci]
++[co]
++[cy]
++[cz]
++[d]
++[da]
++[de]
++[dy]
++[dz]
++[dź]
++[e]
++[eb]
++[ec]
++[ed]
++[ef]
++[eg]
++[ej]
++[ek]
++[el]
++[em]
++[en]
++[er]
++[es]
++[et]
++[ew]
++[ez]
++[eć]
++[eń]
++[eś]
++[eż]
++[f]
++[g]
++[ga]
++[gi]
++[go]
++[h]
++[ha]
++[ho]
++[hy]
++[i]
++[ia]
++[ic]
++[ie]
++[ik]
++[im]
++[io]
++[iw]
++[ić]
++[ię]
++[iś]
++[iż]
++[j]
++[ja]
++[je]
++[k]
++[ka]
++[ki]
++[ko]
++[kt]
++[ku]
++[l]
++[la]
++[le]
++[li]
++[m]
++[ma]
++[mi]
++[mo]
++[mu]
++[mś]
++[n]
++[na]
++[ne]
++[ni]
++[nk]
++[no]
++[ns]
++[nt]
++[ny]
++[o]
++[ob]
++[oc]
++[od]
++[ok]
++[om]
++[on]
++[or]
++[os]
++[ot]
++[oć]
++[oń]
++[oś]
++[pa]
++[pi]
++[r]
++[ra]
++[ro]
++[rw]
++[ry]
++[rz]
++[rć]
++[rś]
++[s]
++[sk]
++[st]
++[sy]
++[sz]
++[sł]
++[t]
++[ta]
++[to]
++[tr]
++[ty]
++[tą]
++[u]
++[ub]
++[ud]
++[ug]
++[uj]
++[um]
++[ur]
++[uć]
++[uł]
++[uś]
++[uż]
++[w]
++[wa]
++[we]
++[wi]
++[wo]
++[wu]
++[wy]
++[y]
++[yc]
++[yk]
++[ym]
++[yn]
++[yt]
++[yw]
++[yć]
++[ył]
++[yś]
++[yż]
++[z]
++[za]
++[ze]
++[zg]
++[zo]
++[zy]
++[ób]
++[ód]
++[óg]
++[ój]
++[ól]
++[ór]
++[ót]
++[ów]
++[óz]
++[ół]
++[óż]
++[ą]
++[ąb]
++[ąc]
++[ąd]
++[ąg]
++[ąt]
++[ąć]
++[ąż]
++[ć]
++[ę]
++[ęc]
++[ęk]
++[ęt]
++[ęć]
++[ł]
++[ła]
++[ło]
++[łt]
++[ły]
++[ń]
++[ś]
++[śl]
++[ść]
++[ź]
++[źć]
++[ż]
++[że]
++[żo]
++[ży]
+

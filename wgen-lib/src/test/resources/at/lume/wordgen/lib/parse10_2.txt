@@ -1,0 +1,11 @@
+-[b] +accept(e)
+[ȩ]
+[a]
+[i]
+[e] +accept(f)
+[f] +accept(e)
++[c]
++[d]
++[fi]
++[ee] -accept(b)
++[ei] -accept(f)

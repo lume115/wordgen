@@ -31,6 +31,7 @@ import at.lume.wordgen.lib.ast.Syllable;
 import at.lume.wordgen.lib.ast.Syllable.SyllablePosition;
 import at.lume.wordgen.lib.ast.expression.CharacterMatchExpression;
 import at.lume.wordgen.lib.ast.expression.Expression;
+import at.lume.wordgen.lib.ast.expression.parser.AcceptParser;
 import at.lume.wordgen.lib.ast.expression.parser.FlagParser;
 import at.lume.wordgen.lib.ast.expression.parser.FollowedByParser;
 import at.lume.wordgen.lib.ast.expression.parser.LengthParser;
@@ -119,7 +120,9 @@ public class WordGenParser {
     	registerExpressionParser("\\-([c|v|n])", new PrecededByParser());
     	registerExpressionParser("\\+([c|v|n])", new FollowedByParser());
     	registerExpressionParser("([+|-]{1})([max|min]{0,3}len)\\(([+|-]?[0-9]*)[,]?([+|-]?[0-9]*)?\\)", new LengthParser());
-    	registerExpressionParser("([+|-]{1})(flag)\\((.*)\\)", new FlagParser());    	
+    	registerExpressionParser("([+|-]{1})(flag)\\((.*)\\)", new FlagParser());
+    	registerExpressionParser("([+|-]{1})(accept)\\((.*)\\)", new AcceptParser());
+    	registerExpressionParser("([+|-]{1})(accept_strict)\\((.*)\\)", new AcceptParser());
     }
     
     protected WordGenParser() {

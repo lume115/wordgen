@@ -1,0 +1,488 @@
+-[a] +accept(ft,kk,kt,le,lt,mt,na,nd,ne,nn,ns,re,rn,te,to,tt)
+-[ad] +accept(og,ok,om)
+-[af] +accept(ra,re,rø)
+-[ak] +accept(un)
+-[am] +accept(ed,en,er,es,et)
+-[b] +accept(en,er)
+-[ba] +accept(rb,rt)
+-[be] +accept(nd,ng,nn,nt,tt)
+-[bl] +accept(ag,an,en,ev,it,iv,ot,ov)
+-[bo] +accept(rg)
+-[br] +accept(ed,eg,el,et,ul,us,øk,øy)
+-[bu] +accept(nd,ng)
+-[d] +accept(an,el,en,er,es,et,ig,om,ør)
+-[de] +accept(ll,nd,ng,nn,nt,tt)
+-[do] +accept(gs,kt)
+-[e] +accept(it,lt,lv,ne,nn,ns,nt,re,rs,rt,tt)
+-[eu] +accept(rt)
+-[f] +accept(er,et,or)
+-[fi] +accept(nd,nh,nn)
+-[fl] +accept(en,ev)
+-[fo] +accept(kt,rg)
+-[fr] +accept(al,ap,as,ed,eg,el,et,øk,øy)
+-[fu] +accept(li)
+-[få] +accept(rs)
+-[g] +accept(al,an,en,er,et,ig,år)
+-[ge] +accept(nd,ng,nn,nt)
+-[gj] +accept(ea,or)
+-[gr] +accept(al,ap,as,ed,eg,el,et,ul,us)
+-[gå] +accept(rs)
+-[h] +accept(et)
+-[ha] +accept(lg,lk,ll,lm,lt,nd,nk,nt,rb,rt,vg,vh)
+-[he] +accept(ll,nd,ng,nn,nt)
+-[hj] +accept(ea)
+-[ho] +accept(ff,ft)
+-[hu] +accept(nd,ng,sa)
+-[hv] +accept(ak,an,ar,ed,ek,er,id,ik,il,is,it)
+-[i] +accept(ge,gh,ke,ko,ng,vt)
+-[ig] +accept(je,jo,jø)
+-[im] +accept(id,il,in,is)
+-[j] +accept(en,er)
+-[ja] +accept(kt,ku)
+-[jo] +accept(rg)
+-[ju] +accept(li)
+-[k] +accept(al,ap,je,le)
+-[ka] +accept(lg,lk,ll,lm,lt,mb,me,nd,nk,nt,rb,rt)
+-[kj] +accept(ea)
+-[kl] +accept(ag,an,en,ev)
+-[ko] +accept(rg)
+-[kr] +accept(ed,eg,el,et)
+-[ku] +accept(nd,ng)
+-[l] +accept(en,er,es,ig,ik,ir)
+-[la] +accept(nd,nk,nt)
+-[le] +accept(nd,ng,nn,nt)
+-[lo] +accept(ve)
+-[lu] +accept(nd,ng)
+-[m] +accept(el,er,me)
+-[ma] +accept(nd,nk,nt)
+-[me] +accept(nd,ng,nn,nt,tt)
+-[mi] +accept(nd,nh,nn)
+-[mu] +accept(li)
+-[n] +accept(er,es,et,om)
+-[na] +accept(vg,vh)
+-[ne] +accept(ks)
+-[ni] +accept(kk)
+-[no] +accept(kt,rg)
+-[nå] +accept(rs)
+-[o] +accept(pa,rm,rt)
+-[ov] +accept(ed,ek,er)
+-[p] +accept(el,en,er,et)
+-[pa] +accept(rb,rt)
+-[pl] +accept(ag,an,uk,un)
+-[po] +accept(pp,rg)
+-[pr] +accept(is)
+-[pu] +accept(li,sa)
+-[r] +accept(ad,am,en,er,es,et,ev,ie,uk)
+-[ra] +accept(lg,lk,ll,lm,lt)
+-[re] +accept(ll,tt)
+-[ru] +accept(li,sa)
+-[rø] +accept(ko)
+-[s] +accept(el,en,er,iv,ke,kt,om,te,tå,yn)
+-[sa] +accept(kt,ku,mb,me)
+-[se] +accept(ll,nd,ng,nn,nt)
+-[si] +accept(gj,kk,nd,nh,nn)
+-[sk] +accept(al,am,an,ar,je,re,ro,un)
+-[sl] +accept(ag,an,en,ev,it,iv)
+-[sm] +accept(åt)
+-[sn] +accept(ic,ik)
+-[sp] +accept(er,ri,ro)
+-[st] +accept(ab,ap,id,il,ob,ol,os,ra,re,yd,ør)
+-[sv] +accept(ær,æs)
+-[t] +accept(ak,en,er,es,et,id,il,in,iv,or,yr)
+-[ta] +accept(bs)
+-[te] +accept(nd,ng,nn,nt)
+-[to] +accept(bs)
+-[tr] +accept(al,ap,as,ed,eg,el,et)
+-[u] +accept(li,ll,nn,sk,tt)
+-[ul] +accept(it,iv)
+-[um] +accept(ul)
+-[us] +accept(ak,am,at)
+-[ut] +accept(em,en)
+-[v] +accept(en,er,et,is)
+-[va] +accept(kt,ku,nd,nk,nt,rb,rt)
+-[ve] +accept(ks)
+-[vi] +accept(kk)
+-[vå] +accept(rs)
+-[wa] +accept(lg,lk,ll,lm,lt)
+-[å] +accept(re)
+-[øk] +accept(ol,om,on,or)
+
+[a] +accept(ft,gs,gt,kk,kt,le,lt,mt,na,nd,ne,nn,ns,ps,re,rn,sk,st,te,to,tt)
+[ab] +accept(ar)
+[ad] +accept(eg,el,en,er,et,is,ød,ør)
+[ag] +accept(en)
+[al] +accept(en,ev,it,iv,ot,ov)
+[am] +accept(id,il,in,is)
+[an] +accept(ic,ik)
+[ap] +accept(er)
+[ar] +accept(ed,eg,el,et,is)
+[as] +accept(ka,ki,kj,kr,ku,ky,kå,ta,ti,to,tr,tu,ty,tø)
+[at] +accept(em,en,id,il)
+[av] +accept(ed,ek,er)
+[b] +accept(en,er,ød)
+[ba] +accept(kt,ku)
+[be] +accept(ie)
+[br] +accept(ed,eg,el,et,ul,us)
+[bs] +accept(om,ot,ta,ti,to,tr,tu,ty,tø)
+[c] +accept(um)
+[d] +accept(an,de,el,en,er,es,et,ig,om,re,te,ør)
+[db] +accept(re,ru,rø)
+[dd] +accept(eg,el,en,er,et)
+[de] +accept(ll,nd,ng,nn,nt)
+[df] +accept(ør)
+[di] +accept(gj,nd,nh,nn)
+[dl] +accept(en,ev,it,iv)
+[dm] +accept(ed,en,er,es,et)
+[do] +accept(ve)
+[dr] +accept(ed,eg,el,et,is)
+[ds] +accept(eg,el,en,ep,ka,ki,kj,kr,ku,ky,kå,må)
+[dt] +accept(ab,ap,em,en)
+[e] +accept(an,de,dt,gg,it,lt,lv,ne,nn,ns,nt,re,rs,rt,st,tt,ve)
+[ea] +accept(lg,lk,ll,lm,lt)
+[eb] +accept(eg,eh,en,er,es,et)
+[ed] +accept(eg,el,en,er,et,is,og,ok,om)
+[ef] +accept(ok,ol,or)
+[eg] +accept(en,ra,re,ru)
+[eh] +accept(al,an,ar,av,of,ol,os)
+[ei] +accept(gj,nd,nh,nn)
+[ek] +accept(re,ro)
+[el] +accept(ag,an,en,ev,it,iv,ot,ov)
+[em] +accept(ed,en,er,es,et,øt)
+[en] +accept(ed,ek,es,ev,ye,ys)
+[eo] +accept(gs)
+[ep] +accept(la,lu)
+[er] +accept(al,ap,as,ed,eg,el,et,is,øk,øy)
+[es] +accept(eg,el,en,ep,ie,ig,ik,in,ir,it,ka,ki,kj,kr,ku,ky,kå,la,le,li,ta,ti,to,tr,tu,ty,tø,yd,yk)
+[et] +accept(ab,ap,em,en,ob,ol,os,yd)
+[ev] +accept(ak,an,ar,ed,ek,er,id,ik,il,is,it)
+[f] +accept(er,et,or,te)
+[fa] +accept(kt,ku,lg,lk,ll,lm,lt,mb,me)
+[fe] +accept(ks,ll,nd,ng,nn,nt)
+[ff] +accept(er)
+[fo] +accept(rg)
+[fr] +accept(ed,eg,el,et,is)
+[ft] +accept(em,en,id,il)
+[g] +accept(al,an,en,er,et,ig,så,te,år)
+[ga] +accept(nd,nk,nt,rb,rt)
+[ge] +accept(ie,ll,nd,ng,nn,nt)
+[gh] +accept(el,en)
+[gi] +accept(gj)
+[gj] +accept(ea)
+[gl] +accept(it,iv)
+[gn] +accept(ed,ek,es,ev)
+[gr] +accept(ed,eg,el,et,ul,us,øk,øy)
+[gs] +accept(ta,ti,to,tr,tu,ty,tø)
+[gv] +accept(id,ik,il,is,it)
+[h] +accept(et)
+[ha] +accept(lg,lk,ll,lm,lt,nd,nk,nt)
+[he] +accept(nd,ng,nn,nt,tt)
+[hj] +accept(ea)
+[hr] +accept(is)
+[i] +accept(an,ca,en,er,ge,gh,ke,ko,lt,ng,on,pe,se,sk,te,tt,us,vt)
+[ia] +accept(lg,lk,ll,lm,lt,nd,nk,nt)
+[ib] +accept(eg,eh,en,er,es,et)
+[id] +accept(eg,el,en,er,et)
+[if] +accept(er,in,ra,re,rø)
+[ig] +accept(en,ra,re,ru)
+[ii] +accept(nd,nh,nn)
+[ik] +accept(al,am,an,ar,la,le,ol,om,on,or)
+[il] +accept(it,iv)
+[in] +accept(ed,ek,es,ev,ic,ik)
+[ip] +accept(er)
+[ir] +accept(al,ap,as,øk,øy)
+[is] +accept(eg,el,en,ep,ie,ig,ik,in,ir,it,ka,ki,kj,kr,ku,ky,kå,ta,ti,to,tr,tu,ty,tø)
+[it] +accept(em,en,id,il)
+[iv] +accept(ak,an,ar,ed,ek,er)
+[j] +accept(en,er,ør)
+[je] +accept(ll,nd,ng,nn,nt)
+[jo] +accept(rg)
+[k] +accept(al,ap,en,er,es,et,ip,je,ke,le,st,te)
+[ka] +accept(lg,lk,ll,lm,lt,nd,nk,nt)
+[kd] +accept(eg,el,en,er,et,og,ok,om)
+[ke] +accept(ll,nd,ng,nn,nt,tt)
+[ki] +accept(mi,mp,nd,nh,nn)
+[kj] +accept(ea)
+[kk] +accept(re,ro)
+[kl] +accept(it,iv)
+[kr] +accept(al,ap,as,ed,eg,el,et,is,øk,øy)
+[ks] +accept(eg,el,en,ep,pe,pr)
+[kt] +accept(em,en,id,il,ob,ol,os,ør)
+[ku] +accept(li,mu,rt,sa,tb,te,tk,tv)
+[kå] +accept(rs)
+[l] +accept(de,en,er,es,ig,ik,ir,le,se,sk)
+[la] +accept(do,nd,nk,nt,rb,rt,vg,vh)
+[ld] +accept(eg,el,en,er,et)
+[le] +accept(ie,ks,nd,ng,nn,nt)
+[lf] +accept(er)
+[lg] +accept(en,je,jo,jø)
+[lh] +accept(øs,øy)
+[li] +accept(gj,kk,nd,nh,nn)
+[lj] +accept(ea)
+[lk] +accept(al,am,an,ar,je)
+[ll] +accept(en,ev,it,iv,ot,ov)
+[lm] +accept(id,il,in,is)
+[lo] +accept(ve)
+[lp] +accept(ar,as)
+[ls] +accept(eg,el,en,ep,ka,ki,kj,kr,ku,ky,kå,om,ot)
+[lt] +accept(em,en,id,il)
+[lv] +accept(ed,ek,er)
+[m] +accept(el,er,me,st)
+[ma] +accept(nd,nk,nt)
+[mb] +accept(ar,eg,eh,en,er,es,et)
+[me] +accept(nd,ng,nn,nt)
+[mi] +accept(nd,nh,nn)
+[ml] +accept(en,ev)
+[mm] +accept(ed,en,er,es,et,ul)
+[mp] +accept(er,ol,op,or)
+[ms] +accept(ni,ta,ti,to,tr,tu,ty,tø)
+[mu] +accept(li,nd,ng)
+[n] +accept(da,de,er,es,et,ge,gt,ne,om,se,sk,te)
+[na] +accept(lg,lk,ll,lm,lt)
+[nd] +accept(eg,el,en,er,et,is)
+[ne] +accept(ll,nd,ng,nn,nt)
+[nf] +accept(ok,ol,or,ør)
+[ng] +accept(en,if,ir)
+[nh] +accept(al,an,ar,av,of,ol,os)
+[ni] +accept(nd,nh,nn)
+[nk] +accept(ol,om,on,or,re,ro)
+[nl] +accept(it,iv)
+[nn] +accept(ed,ek,es,ev,oe,ok,or)
+[ns] +accept(eg,el,en,ep,ka,ki,kj,kr,ku,ky,kå,la,le,li,ni,ta,ti,to,tr,tu,ty,tø,yd,yk)
+[nt] +accept(ab,ap,em,en,id,il,ra,re)
+[o] +accept(en,ld,lf,lv,pa,rm,rt,sa)
+[ob] +accept(ar,eg,eh,en,er,es,et)
+[od] +accept(eg,el,en,er,et)
+[og] +accept(en)
+[ok] +accept(un)
+[ol] +accept(en,ev,it,iv,ot,ov)
+[om] +accept(id,il,in,is,ul)
+[on] +accept(as,av,ic,ik,oe,ok,or)
+[op] +accept(er,ul,us)
+[or] +accept(ed,eg,el,et,is)
+[os] +accept(ie,ig,ik,in,ir,it)
+[ot] +accept(em,en,id,il)
+[ov] +accept(ed,ek,er)
+[p] +accept(el,en,er,et,gi)
+[pa] +accept(rb,rt)
+[pd] +accept(ag,at)
+[pe] +accept(ll,nd,ng,nn,nt)
+[pl] +accept(ag,an)
+[po] +accept(rg)
+[pp] +accept(er,la,lu,ol,op,or,ri,ro)
+[pr] +accept(ed,eg,el,et,is)
+[ps] +accept(må)
+[pt] +accept(em,en)
+[pu] +accept(li)
+[r] +accept(ad,am,by,de,en,er,es,et,ev,ge,ie,ka,ne,re,st,te,uk)
+[ra] +accept(fr,kt,ku,lg,lk,ll,lm,lt,mb,me,nd,nk,nt)
+[rb] +accept(eg,eh,en,er,es,et,re,ru,rø,un)
+[rd] +accept(ag,at,eg,el,en,er,et,is)
+[re] +accept(ie,ll,nd,ng,nn,nt,tt)
+[rf] +accept(as,ok,ol,or)
+[rg] +accept(en)
+[rh] +accept(el,en,of,ol,os)
+[ri] +accept(gj,kk,mi,mp,nd,nh,nn)
+[rk] +accept(re,ro)
+[rl] +accept(en,ev,it,iv)
+[rm] +accept(an)
+[rn] +accept(as,av)
+[ro] +accept(pp,ve)
+[rr] +accept(ed,eg,el,et)
+[rs] +accept(ak,am,at,eg,el,en,ep,ie,ig,ik,in,ir,it,ka,ki,kj,kr,ku,ky,kå,om,ot,pe,pr,ta,ti,to,tr,tu,ty,tø,yd,yk)
+[rt] +accept(em,en,id,il,ra,re)
+[ru] +accept(nd,ng)
+[rv] +accept(ak,an,ar)
+[rø] +accept(ko)
+[s] +accept(el,en,er,iv,ke,kt,om,se,te,tå,yn)
+[sa] +accept(do,kt,ku,rb,rt,vg,vh)
+[sb] +accept(re,ru,rø)
+[sd] +accept(yp,yr)
+[se] +accept(ff,ll,nd,ng,nn,nt)
+[sf] +accept(as)
+[si] +accept(kk,nd,nh,nn)
+[sj] +accept(or)
+[sk] +accept(al,am,an,ar,je,re,ro,un)
+[sl] +accept(en,ev,ot,ov)
+[sm] +accept(ed,en,er,es,et,ot,øt)
+[sn] +accept(ic,ik)
+[so] +accept(rg)
+[sp] +accept(ip,la,lu,ri,ro)
+[sr] +accept(ed,eg,el,et)
+[ss] +accept(ak,am,at,eg,el,en,ep,ie,ig,ik,in,ir,it,ka,ki,kj,kr,ku,ky,kå)
+[st] +accept(ab,ap,em,en,id,il,ob,ol,os,ra,re,yd)
+[t] +accept(ak,en,er,es,et,id,il,in,iv,or,te,yr)
+[ta] +accept(do,nd,nk,nt)
+[tb] +accept(re,ru,rø)
+[te] +accept(ks,ll,nd,ng,nn,nt)
+[th] +accept(of,ol,os)
+[ti] +accept(gj,nd,nh,nn)
+[tk] +accept(al,am,an,ar,ol,om,on,or)
+[tl] +accept(en,ev,it,iv)
+[tn] +accept(ic,ik)
+[to] +accept(bs,ff,ft,rg)
+[tr] +accept(al,ap,as,ed,eg,el,et,is,ul,us)
+[ts] +accept(ak,am,at,ka,ki,kj,kr,ku,ky,kå,må)
+[tt] +accept(em,en)
+[tu] +accept(rt)
+[tv] +accept(id,ik,il,is,it)
+[u] +accept(de,dt,kt,li,ll,nn,sk,tt)
+[ud] +accept(eg,el,en,er,et,is)
+[ul] +accept(ag,an,it,iv)
+[um] +accept(ed,en,er,es,et)
+[un] +accept(as,av,ed,ek,es,ev)
+[ur] +accept(ed,eg,el,et)
+[us] +accept(eg,el,en,ep,ta,ti,to,tr,tu,ty,tø)
+[v] +accept(en,er,et,is,or)
+[va] +accept(lg,lk,ll,lm,lt)
+[vg] +accept(if,ir,je,jo,jø,år)
+[vh] +accept(el,en,je)
+[vi] +accept(kk)
+[vl] +accept(en,ev,it,iv)
+[vn] +accept(ed,ek,es,ev)
+[vo] +accept(rg)
+[vp] +accept(ar,as)
+[y] +accept(re,st)
+[yd] +accept(eg,el,en,er,et)
+[yr] +accept(ed,eg,el,et)
+[ys] +accept(ni)
+[å] +accept(de,re,te,tt)
+[år] +accept(ed,eg,el,et)
+[åt] +accept(ob,ol,os)
+[åv] +accept(id,ik,il,is,it)
+[æ] +accept(re,rt)
+[ær] +accept(ed,eg,el,et)
+[æs] +accept(ka,ki,kj,kr,ku,ky,kå)
+[ø] +accept(rt)
+[ød] +accept(eg,el,en,er,et)
+[øi] +accept(nd,nh,nn)
+[ør] +accept(ed,eg,el,et)
+[øs] +accept(ta,ti,to,tr,tu,ty,tø)
+[øt] +accept(em,en)
+
++[a]
++[ad]
++[ag]
++[ak]
++[al]
++[am]
++[an]
++[ap]
++[ar]
++[by]
++[ca]
++[d]
++[da]
++[de]
++[dt]
++[e]
++[ed]
++[eg]
++[el]
++[en]
++[er]
++[es]
++[et]
++[ev]
++[f]
++[ft]
++[g]
++[ge]
++[gg]
++[gh]
++[gi]
++[gs]
++[gt]
++[h]
++[i]
++[id]
++[ie]
++[ig]
++[ik]
++[il]
++[in]
++[ip]
++[ir]
++[is]
++[it]
++[iv]
++[je]
++[k]
++[ka]
++[ke]
++[kk]
++[ko]
++[kt]
++[l]
++[ld]
++[le]
++[lf]
++[li]
++[ll]
++[lt]
++[lv]
++[m]
++[me]
++[mt]
++[må]
++[n]
++[na]
++[nd]
++[ne]
++[ng]
++[nn]
++[ns]
++[nt]
++[o]
++[od]
++[oe]
++[og]
++[ok]
++[om]
++[on]
++[or]
++[os]
++[ot]
++[p]
++[pa]
++[pe]
++[pp]
++[ps]
++[r]
++[ra]
++[re]
++[rm]
++[rn]
++[rs]
++[rt]
++[rø]
++[s]
++[sa]
++[se]
++[sk]
++[st]
++[så]
++[t]
++[te]
++[to]
++[tt]
++[tå]
++[u]
++[uk]
++[um]
++[un]
++[us]
++[v]
++[va]
++[ve]
++[vt]
++[y]
++[ye]
++[yn]
++[yr]
++[å]
++[år]
++[ø]
++[ød]
++[ør]
++[øy]
+

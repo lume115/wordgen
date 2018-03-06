@@ -1,0 +1,9 @@
+-[b] +accept(e)
+[ȩ]
+[a]
+[i]
+[f] +accept(e)
++[c]
++[d]
++[fi]
++[ee]

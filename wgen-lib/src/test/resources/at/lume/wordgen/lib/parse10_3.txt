@@ -1,0 +1,6 @@
+-[b] +accept_strict(e)
+[a]
+[ex] +accept_strict(e)
+[fe]
++[ez]
++[fe]
