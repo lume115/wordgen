@@ -88,7 +88,7 @@ public class NameGenTestCharMatch {
 				.fromFile(getFileForRes("parse09.txt"));
 		assertNotNull(ng);
 		assertEquals("random word = 'b'", "b", ng.nextWord(1, 1));
-		assertEquals("random word = 'b'", "b", ng.nextWord(3, 3));
-		assertEquals("random word = 'b'", "b", ng.nextWord(4, 4));
+		assertEquals("random word = 'bȩc'", "bȩc", ng.nextWord(3, 3));
+		assertEquals("random word = 'bȩȩc'", "bȩȩc", ng.nextWord(4, 4));
 	}
 }

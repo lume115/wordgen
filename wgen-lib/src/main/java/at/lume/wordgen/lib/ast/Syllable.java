@@ -42,7 +42,7 @@ public interface Syllable {
 		ANY
 	}
 	
-	String getSyllable(final Random rnd, final String currentWord, Syllable previousSyllable);
+	String getSyllable(final Random rnd, final List<String> currentWord, final Syllable previousSyllable);
 	
 	SyllablePosition getPosition();
 	

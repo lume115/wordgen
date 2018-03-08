@@ -25,6 +25,7 @@ import java.util.Random;
 
 import at.lume.wordgen.lib.ast.Syllable;
 import at.lume.wordgen.lib.ast.Syllable.SyllablePosition;
+import at.lume.wordgen.lib.util.StringUtils;
 
 /**
  * Word generator
@@ -60,15 +61,21 @@ public class WordGen {
 		return syllables;
 	}
 	
+	
+	public String nextWord(final int minLength, final int maxLength) {
+		return nextWord(minLength, maxLength, "");
+	}
+	
 	/**
 	 * generates the next random word
 	 * @param minLength min length (syllables)
 	 * @param maxLength max length (syllables)
 	 * @return
 	 */
-	public String nextWord(final int minLength, final int maxLength) {
+	public String nextWord(final int minLength, final int maxLength, final String separator) {
 		//System.out.println("new word");
-		String curWord = "";
+		final List<String> currentWord = new ArrayList<>();
+		String finalWord = "";
 		Syllable prevSyllable = null;
 		if (maxLength < minLength) return "";
 		final int length = rnd.nextInt(maxLength-minLength+1)+minLength;
@@ -105,23 +112,25 @@ public class WordGen {
 			
 			if (syllableList.size() > 0) {
 				Collections.shuffle(syllableList, rnd);
-				//System.out.println("i=" + i + " -> "+syllableList);
 				final Iterator<Syllable> it = syllableList.iterator();
 				boolean needsNext = true;
 				while (it.hasNext() && needsNext) {
 					final Syllable nextSyllable = it.next();
-					final String nextSyllableString = nextSyllable.getSyllable(rnd, curWord, prevSyllable);
+					final String nextSyllableString = nextSyllable.getSyllable(rnd, currentWord, prevSyllable);
 					if (nextSyllableString != null) {
 						prevSyllable = nextSyllable;
-						curWord += nextSyllableString;
+						currentWord.add(nextSyllableString);
 						needsNext = false;
 						listModified = true;
 					}
 				}
 			}
+			
+			
+			finalWord = StringUtils.join(currentWord, separator);
 		}
 		
-		return curWord;
+		return finalWord.trim();
 	}
 	
 	@Override

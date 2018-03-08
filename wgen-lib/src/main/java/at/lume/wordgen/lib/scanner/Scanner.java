@@ -3,7 +3,9 @@ package at.lume.wordgen.lib.scanner;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
+import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
@@ -25,6 +27,49 @@ public class Scanner {
 	private final static String FORBIDDEN_CHARS = "[«¦»!\"§$%&/\\(\\)=\\?1234567890\\{\\}\\[\\]\\\\\\+\\-\\*/;:,\\.<>|#'~–]";
 	
 	private final static String REMOVE_CHARS = "[,?!]$";
+	
+	public static class ScanConfig {
+		final File file;
+		final boolean useForStart;
+		final boolean useForMid;
+		final boolean useForEnding;
+		final String exprAndFlags;
+	
+		public ScanConfig(final File file, final boolean useForStart, final boolean useForMid, 
+				final boolean useForEnding) {
+			this(file, useForStart, useForMid, useForEnding, null);
+			
+		}
+		
+		public ScanConfig(final File file, final boolean useForStart, final boolean useForMid, 
+				final boolean useForEnding, final String exprAndFlags) {
+			this.file = file;
+			this.useForEnding = useForEnding;
+			this.useForMid = useForMid;
+			this.useForStart = useForStart;
+			this.exprAndFlags = exprAndFlags;
+		}
+
+		public File getFile() {
+			return file;
+		}
+
+		public boolean isUseForStart() {
+			return useForStart;
+		}
+
+		public boolean isUseForMid() {
+			return useForMid;
+		}
+
+		public boolean isUseForEnding() {
+			return useForEnding;
+		}
+
+		public String getExprAndFlags() {
+			return exprAndFlags;
+		}
+	}
 	
 	public static class Builder {
 		Locale locale = Locale.US;
@@ -102,6 +147,58 @@ public class Scanner {
 		return words;
 	}
 	
+	/**
+	 * scans files for rules (and intially words) by using simple configs
+	 * @param scanConfigs
+	 * @return
+	 * @throws IOException 
+	 */
+	public List<String> scanFilesForRules(final ScanConfig...scanConfigs) throws IOException {
+		final Map<String, Set<String>> wordsStart = new HashMap<>();
+		final Map<String, Set<String>> wordsMid = new HashMap<>();
+		final Map<String, Set<String>> wordsEnd = new HashMap<>();
+		for (final ScanConfig sc : scanConfigs) {
+			final Set<String> words = scanFilesForWords(sc.getFile());
+			if (sc.isUseForStart()) {
+				processScanConfig(sc, wordsStart, words);
+			}
+			if (sc.isUseForMid()) {
+				processScanConfig(sc, wordsMid, words);
+			}
+			if (sc.isUseForEnding()) {
+				processScanConfig(sc, wordsEnd, words);
+			}
+		}
+		
+		StringBuilder sb = new StringBuilder();
+		sb.append(processWordMap(wordsStart,"-"));
+		sb.append(processWordMap(wordsMid,""));
+		sb.append(processWordMap(wordsEnd,"+"));
+		
+		return Arrays.asList(sb.toString().split("\n"));
+	}
+	
+	private void processScanConfig(final ScanConfig sc, final Map<String, Set<String>> wordMap, final Set<String> words) {
+		Set<String> wordSet = wordMap.get(sc.getExprAndFlags() == null ? "" : sc.getExprAndFlags());
+		if (wordSet == null) {
+			wordSet = new TreeSet<>();
+			wordMap.put((String) (sc.getExprAndFlags() == null ? "" : sc.getExprAndFlags()), wordSet);
+		}
+		wordSet.addAll(words);		
+	}
+
+	private String processWordMap(final Map<String, Set<String>> wordMap, final String modifier) {
+		final StringBuilder sb = new StringBuilder();
+		for (final Entry<String, Set<String>> e : wordMap.entrySet()) {
+			for (final String word : e.getValue()) {
+				sb.append(modifier).append("[").append(word).append("]");
+				sb.append(" ").append(e.getKey());
+				sb.append("\n");
+			}
+		}
+		return sb.toString();
+	}
+
 	/**
 	 * scans files for rules (and initially for words)
 	 * @param file

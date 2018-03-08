@@ -1,0 +1,5 @@
+-[b] +noRepeat
+[b] +noRepeat
+[e] +noRepeat
++[b]
++[e]

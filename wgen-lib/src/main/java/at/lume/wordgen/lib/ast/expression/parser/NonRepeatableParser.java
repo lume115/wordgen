@@ -15,32 +15,16 @@
  *******************************************************************************/
 package at.lume.wordgen.lib.ast.expression.parser;
 
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.regex.Matcher;
 
 import at.lume.wordgen.lib.WordGenParser;
-import at.lume.wordgen.lib.ast.expression.AcceptExpression;
+import at.lume.wordgen.lib.ast.expression.NonRepeatableExpression;
 
-public class AcceptParser implements WordGenParser.ExpressionParser<AcceptExpression> {
+public class NonRepeatableParser implements WordGenParser.ExpressionParser<NonRepeatableExpression> {
 
 	@Override
-	public AcceptExpression parse(Matcher matcher, String expression) {
-		// group 1 = + or -
-		// group 2 = accept or accept_strict
-		// group 3 = syllables: (syllable,syllable,...)
-		if (matcher.groupCount() == 3) {
-			Boolean isPreceding = !"+".equals(matcher.group(1));
-			final AcceptExpression expr = new AcceptExpression();
-			expr.setAcceptList(new ArrayList<String>());
-			expr.getAcceptList().addAll(Arrays.asList(matcher.group(3).split(",")));
-			expr.setStrict(matcher.group(2).equals("acceptStrict"));
-			expr.setPreceding(isPreceding);
-			
-			return expr;
-		}
-		
-		return null;
+	public NonRepeatableExpression parse(Matcher matcher, String expression) {
+		return new NonRepeatableExpression();
 	}
 
 }

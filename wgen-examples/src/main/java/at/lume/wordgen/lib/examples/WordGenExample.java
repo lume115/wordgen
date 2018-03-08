@@ -44,6 +44,7 @@ public class WordGenExample {
 		ngExample.testNorwegian();
 		ngExample.testPolish();
 		ngExample.testGerman();
+		ngExample.testHispanicNames();
 	}
 	
 	private File getFileForRes(final String resFielName) {
@@ -53,7 +54,7 @@ public class WordGenExample {
 	}
 	
 	public void testSimpli() throws IOException {
-		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("lang_simpli.txt"));
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("lang_simpli.txt"), 1);
 		long start = System.currentTimeMillis();
 		final Set<String> words = new TreeSet<>();
 		for (int i = 0; i < 1000; i++) {
@@ -66,7 +67,7 @@ public class WordGenExample {
 	}
 
 	public void testBrarto() throws IOException {
-		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("lang_brarto.txt"));
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("lang_brarto.txt"), 1);
 		long start = System.currentTimeMillis();
 		final Set<String> words = new TreeSet<>();
 		while (words.size() < 1000) {
@@ -79,7 +80,7 @@ public class WordGenExample {
 	}
 
 	public void testFinnish() throws IOException {
-		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("lang_fin.txt"));
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("lang_fin.txt"), 1);
 		long start = System.currentTimeMillis();
 		final Set<String> words = new TreeSet<>();
 		while (words.size() < 1000) {
@@ -92,7 +93,7 @@ public class WordGenExample {
 	}
 
 	public void testEnglish() throws IOException {
-		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_en.txt"));
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_en.txt"), 1);
 		long start = System.currentTimeMillis();
 		final Set<String> words = new TreeSet<>();
 		while (words.size() < 1000) {
@@ -105,7 +106,7 @@ public class WordGenExample {
 	}
 	
 	public void testNorwegian() throws IOException {
-		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_nor.txt"));
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_nor.txt"), 1);
 		long start = System.currentTimeMillis();
 		final Set<String> words = new TreeSet<>();
 		while (words.size() < 1000) {
@@ -118,7 +119,7 @@ public class WordGenExample {
 	}
 	
 	public void testPolish() throws IOException {
-		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_pl.txt"));
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_pl.txt"), 1);
 		long start = System.currentTimeMillis();
 		final Set<String> words = new TreeSet<>();
 		while (words.size() < 1000) {
@@ -131,7 +132,7 @@ public class WordGenExample {
 	}
 	
 	public void testGerman() throws IOException {
-		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_de.txt"));
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_de.txt"), 20);
 		long start = System.currentTimeMillis();
 		final Set<String> words = new TreeSet<>();
 		while (words.size() < 1000) {
@@ -141,5 +142,18 @@ public class WordGenExample {
 		}
 		FilesUtil.writeLines(words, new File("example_de.txt"));
 		System.out.println("time needed for pseudo-german: " + (System.currentTimeMillis() - start));
+	}
+	
+	public void testHispanicNames() throws IOException {
+		WordGen ng = new WordGenParser.Builder().build().fromFile(getFileForRes("rules_hispanic_names.txt"), 1);
+		long start = System.currentTimeMillis();
+		final Set<String> words = new TreeSet<>();
+		while (words.size() < 1000) {
+			final String word = ng.nextWord(2, 3, " ");
+			//System.out.println(word);
+			words.add(word);
+		}
+		FilesUtil.writeLines(words, new File("example_hispanic_names.txt"));
+		System.out.println("time needed for hispanic names: " + (System.currentTimeMillis() - start));		
 	}
 }

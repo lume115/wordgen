@@ -19,6 +19,7 @@ import java.io.File;
 import java.io.IOException;
 
 import at.lume.wordgen.lib.scanner.Scanner;
+import at.lume.wordgen.lib.scanner.Scanner.ScanConfig;
 import at.lume.wordgen.lib.util.FilesUtil;
 
 /**
@@ -35,6 +36,7 @@ public class ScannerExample {
 		se.runNorwegianScanner();
 		se.runPolishScanner();
 		se.runGermanScanner();
+		se.runHispanicNamesScanner();
 	}
 	
 	private File getFileForRes(final String resFielName) {
@@ -62,5 +64,14 @@ public class ScannerExample {
 		final Scanner scan = new Scanner.Builder().build();
 		FilesUtil.writeLines(scan.scanFilesForWords(getFileForRes("de.txt")), new File("words_de.txt"));
 		FilesUtil.writeLines(scan.scanFilesForRules(getFileForRes("de2.txt")), new File ("rules_de.txt"));
+	}
+	
+	public void runHispanicNamesScanner() throws IOException {
+		final Scanner scan = new Scanner.Builder().build();
+		FilesUtil.writeLines(scan.scanFilesForRules(
+				new ScanConfig(getFileForRes("hispanic_w.txt"), true, true, false, " +flag(w) +noRepeat #w"),
+				new ScanConfig(getFileForRes("hispanic_m.txt"), true, true, false, " +flag(m) +noRepeat #m"),
+				new ScanConfig(getFileForRes("hispanic_surnames.txt"), false, false, true, " #w #m")), 
+				new File ("rules_hispanic_names.txt"));
 	}
 }

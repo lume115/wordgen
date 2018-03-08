@@ -35,6 +35,7 @@ import at.lume.wordgen.lib.ast.expression.parser.AcceptParser;
 import at.lume.wordgen.lib.ast.expression.parser.FlagParser;
 import at.lume.wordgen.lib.ast.expression.parser.FollowedByParser;
 import at.lume.wordgen.lib.ast.expression.parser.LengthParser;
+import at.lume.wordgen.lib.ast.expression.parser.NonRepeatableParser;
 import at.lume.wordgen.lib.ast.expression.parser.PrecededByParser;
 import at.lume.wordgen.lib.ast.flag.Flag;
 import at.lume.wordgen.lib.util.FilesUtil;
@@ -117,12 +118,13 @@ public class WordGenParser {
     public WordGenParser(final String vowels, final String numbers) {
     	this.vowels = vowels;
     	this.numbers = numbers;
-    	registerExpressionParser("\\-([c|v|n])", new PrecededByParser());
-    	registerExpressionParser("\\+([c|v|n])", new FollowedByParser());
+    	registerExpressionParser("\\-([c|v|n])$", new PrecededByParser());
+    	registerExpressionParser("\\+([c|v|n])$", new FollowedByParser());
     	registerExpressionParser("([+|-]{1})([max|min]{0,3}len)\\(([+|-]?[0-9]*)[,]?([+|-]?[0-9]*)?\\)", new LengthParser());
     	registerExpressionParser("([+|-]{1})(flag)\\((.*)\\)", new FlagParser());
+    	registerExpressionParser("([+|-]{1})(acceptStrict)\\((.*)\\)", new AcceptParser());
     	registerExpressionParser("([+|-]{1})(accept)\\((.*)\\)", new AcceptParser());
-    	registerExpressionParser("([+|-]{1})(accept_strict)\\((.*)\\)", new AcceptParser());
+    	registerExpressionParser("\\+(noRepeat)", new NonRepeatableParser());
     }
     
     protected WordGenParser() {
@@ -136,11 +138,11 @@ public class WordGenParser {
     public WordGen fromFile(final File file, final long seed) throws IOException {
     	final List<String> data = FilesUtil.readLines(file);
 
-    	final WordGen ng = new WordGen();
-    	final WordGenParser ngp = new WordGenParser();
+    	final WordGen ng = new WordGen(seed);
+    	//final WordGenParser ngp = new WordGenParser();
     	
     	for (final String line : data) {
-    		final Syllable syl = ngp.parseLine(line);
+    		final Syllable syl = parseLine(line);
     		if (syl != null) {
     			List<Syllable> syllableList = ng.getSyllables().get(syl.getPosition());
     			if (syllableList == null) {

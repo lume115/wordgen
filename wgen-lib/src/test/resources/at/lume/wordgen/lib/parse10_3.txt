@@ -1,6 +1,6 @@
--[b] +accept_strict(e)
+-[b] +acceptStrict(e)
 [a]
-[ex] +accept_strict(e)
+[ex] +acceptStrict(e)
 [fe]
 +[ez]
 +[fe]

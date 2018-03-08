@@ -21,6 +21,7 @@ import java.util.Random;
 
 import at.lume.wordgen.lib.ast.expression.Expression;
 import at.lume.wordgen.lib.ast.flag.Flag;
+import at.lume.wordgen.lib.util.StringUtils;
 
 public abstract class AbstractSyllable implements Syllable {
 
@@ -84,9 +85,10 @@ public abstract class AbstractSyllable implements Syllable {
 	}
 	
 	@Override
-	public String getSyllable(final Random rnd, final String currentWord, final Syllable previousSyllable) {
+	public String getSyllable(final Random rnd, final List<String> currentWord, final Syllable previousSyllable) {
+		final String curWord = StringUtils.join(currentWord, "");
 		for (final Expression e : getModifiers()) {
-			if (!e.matchPre(currentWord, previousSyllable)) {
+			if (!e.matchPre(curWord, previousSyllable)) {
 				return null;
 			}
 		}
@@ -95,7 +97,7 @@ public abstract class AbstractSyllable implements Syllable {
 		
 		if (previousSyllable != null) {
 			for (final Expression e : previousSyllable.getModifiers()) {
-				if (!e.matchPost(currentWord, currentSyllable, this)) {
+				if (!e.matchPost(curWord, currentSyllable, this)) {
 					return null;
 				}
 			}			
