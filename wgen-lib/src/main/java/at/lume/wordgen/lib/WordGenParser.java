@@ -136,12 +136,15 @@ public class WordGenParser {
     }
 
     public WordGen fromFile(final File file, final long seed) throws IOException {
-    	final List<String> data = FilesUtil.readLines(file);
-
+    	final List<String> rules = FilesUtil.readLines(file);
+    	return fromRules(rules, seed);
+    }
+    
+    public WordGen fromRules(final List<String> rules, final long seed) {
     	final WordGen ng = new WordGen(seed);
     	//final WordGenParser ngp = new WordGenParser();
     	
-    	for (final String line : data) {
+    	for (final String line : rules) {
     		final Syllable syl = parseLine(line);
     		if (syl != null) {
     			List<Syllable> syllableList = ng.getSyllables().get(syl.getPosition());
@@ -153,7 +156,7 @@ public class WordGenParser {
     		}
     	}
     	
-    	return ng;
+    	return ng;    	
     }
     
     private Map<Pattern, ExpressionParser<?>> getParserMap() {
