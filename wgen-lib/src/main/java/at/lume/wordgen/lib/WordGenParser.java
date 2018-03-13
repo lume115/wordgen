@@ -26,6 +26,7 @@ import java.util.Map.Entry;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import at.lume.wordgen.lib.ast.EmptySyllable;
 import at.lume.wordgen.lib.ast.ListSyllable;
 import at.lume.wordgen.lib.ast.Syllable;
 import at.lume.wordgen.lib.ast.Syllable.SyllablePosition;
@@ -159,6 +160,34 @@ public class WordGenParser {
     	return ng;    	
     }
     
+    /**
+     * parses an expression string and returns all valid expressions 
+     * @param expressionString
+     * @return
+     */
+    public List<Expression> parseExpressions(final String expressionString) {
+    	final Syllable syllable = parseLine(" " + expressionString);
+    	if (syllable != null) {
+    		return syllable.getModifiers();
+    	}
+    	
+    	return null;
+    }
+
+    /**
+     * parses an expression string and returns all valid flags
+     * @param expressionString
+     * @return
+     */
+    public List<Flag> parseFlags(final String expressionString) {
+    	final Syllable syllable = parseLine(" " + expressionString);
+    	if (syllable != null) {
+    		return syllable.getFlags();
+    	}
+    	
+    	return null;
+    }
+
     private Map<Pattern, ExpressionParser<?>> getParserMap() {
 		return parserMap;
 	}
@@ -199,6 +228,9 @@ public class WordGenParser {
 	    		((ListSyllable)syllable).getSyllableList().add(Arrays.asList(line.substring(startPos, endPos).split(",")));
 	    		curIndex = endPos+1;
 	    	}
+    	}
+    	else {
+    		syllable = new EmptySyllable();
     	}
 
 		final List<Expression> expressionList = new ArrayList<>();

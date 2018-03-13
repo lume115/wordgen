@@ -23,8 +23,10 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 
+import at.lume.wordgen.lib.ast.EmptySyllable;
 import at.lume.wordgen.lib.ast.Syllable;
 import at.lume.wordgen.lib.ast.Syllable.SyllablePosition;
+import at.lume.wordgen.lib.ast.expression.Expression;
 import at.lume.wordgen.lib.util.StringUtils;
 
 /**
@@ -66,17 +68,29 @@ public class WordGen {
 		return nextWord(minLength, maxLength, "");
 	}
 	
+	public String nextWord(final int minLength, final int maxLength, final String separator) {
+		return nextWord(minLength, maxLength, separator, null);
+	}
+
+	public String nextWord(final int minLength, final int maxLength, final List<Expression> startingConditions) {
+		return nextWord(minLength, maxLength, "", startingConditions);
+	}
+
 	/**
 	 * generates the next random word
 	 * @param minLength min length (syllables)
 	 * @param maxLength max length (syllables)
 	 * @return
 	 */
-	public String nextWord(final int minLength, final int maxLength, final String separator) {
+	public String nextWord(final int minLength, final int maxLength, final String separator, final List<Expression> startingConditions) {
 		//System.out.println("new word");
 		final List<String> currentWord = new ArrayList<>();
 		String finalWord = "";
 		Syllable prevSyllable = null;
+		if (startingConditions != null && !startingConditions.isEmpty()) {
+			prevSyllable = new EmptySyllable();
+			prevSyllable.setModifers(startingConditions);
+		}
 		if (maxLength < minLength) return "";
 		final int length = rnd.nextInt(maxLength-minLength+1)+minLength;
 		final List<Syllable> syllableList = new ArrayList<>();

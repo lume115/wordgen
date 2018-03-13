@@ -12,3 +12,4 @@ bin/
 **/.settings/
 .idea/
 .project
+*.txt
